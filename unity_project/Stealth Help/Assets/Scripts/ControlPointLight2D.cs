@@ -17,7 +17,7 @@ public class ControlPointLight2D : MonoBehaviour
     void Update()
     {
         //controlLight.pointLightOuterRadius = Mathf.Lerp();
-        transform.RotateAround(transform.position, Vector3.forward, 30f * Time.deltaTime);
+        //transform.RotateAround(transform.position, Vector3.forward, 30f * Time.deltaTime);
         //controlLight.pointLightOuterRadius = Mathf.PingPong(Time.time, 9f);
     }
 }
