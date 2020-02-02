@@ -181,6 +181,179 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
+            <key type="filename">../../../../art_source/player/impPullDiagBack1.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagBack2.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagBack3.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagBack4.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagBack5.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagBack6.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagBackRight0001.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagBackRight0002.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagBackRight0003.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagBackRight0004.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagBackRight0005.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagBackRight0006.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagFront1.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagFront2.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagFront3.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagFront4.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagFront5.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagFront6.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagFrontRight0001.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagFrontRight0002.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagFrontRight0003.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagFrontRight0004.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagFrontRight0005.png</key>
+            <key type="filename">../../../../art_source/player/impPullDiagFrontRight0006.png</key>
+            <key type="filename">../../../../art_source/player/impPullRight0001.png</key>
+            <key type="filename">../../../../art_source/player/impPullRight0002.png</key>
+            <key type="filename">../../../../art_source/player/impPullRight0003.png</key>
+            <key type="filename">../../../../art_source/player/impPullRight0004.png</key>
+            <key type="filename">../../../../art_source/player/impPullRight0005.png</key>
+            <key type="filename">../../../../art_source/player/impPullRight0006.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagBack1.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagBack2.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagBack3.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagBack4.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagBack5.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagBack6.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagBackRight0001.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagBackRight0002.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagBackRight0003.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagBackRight0004.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagBackRight0005.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagBackRight0006.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagFront1.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagFront2.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagFront3.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagFront4.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagFront5.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagFront6.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagFrontRight0001.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagFrontRight0002.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagFrontRight0003.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagFrontRight0004.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagFrontRight0005.png</key>
+            <key type="filename">../../../../art_source/player/impPushDiagFrontRight0006.png</key>
+            <key type="filename">../../../../art_source/player/impPushRight0001.png</key>
+            <key type="filename">../../../../art_source/player/impPushRight0002.png</key>
+            <key type="filename">../../../../art_source/player/impPushRight0003.png</key>
+            <key type="filename">../../../../art_source/player/impPushRight0004.png</key>
+            <key type="filename">../../../../art_source/player/impPushRight0005.png</key>
+            <key type="filename">../../../../art_source/player/impPushRight0006.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagBack1.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagBack2.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagBack3.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagBack4.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagBack5.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagBack6.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagBackRight0001.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagBackRight0002.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagBackRight0003.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagBackRight0004.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagBackRight0005.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagBackRight0006.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagFront1.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagFront2.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagFront3.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagFront4.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagFront5.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagFront6.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagFrontRight0001.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagFrontRight0002.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagFrontRight0003.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagFrontRight0004.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagFrontRight0005.png</key>
+            <key type="filename">../../../../art_source/player/impShockDiagFrontRight0006.png</key>
+            <key type="filename">../../../../art_source/player/impShockDown1.png</key>
+            <key type="filename">../../../../art_source/player/impShockDown2.png</key>
+            <key type="filename">../../../../art_source/player/impShockDown3.png</key>
+            <key type="filename">../../../../art_source/player/impShockDown4.png</key>
+            <key type="filename">../../../../art_source/player/impShockDown5.png</key>
+            <key type="filename">../../../../art_source/player/impShockDown6.png</key>
+            <key type="filename">../../../../art_source/player/impShockLeft1.png</key>
+            <key type="filename">../../../../art_source/player/impShockLeft2.png</key>
+            <key type="filename">../../../../art_source/player/impShockLeft3.png</key>
+            <key type="filename">../../../../art_source/player/impShockLeft4.png</key>
+            <key type="filename">../../../../art_source/player/impShockLeft5.png</key>
+            <key type="filename">../../../../art_source/player/impShockLeft6.png</key>
+            <key type="filename">../../../../art_source/player/impShockRight0001.png</key>
+            <key type="filename">../../../../art_source/player/impShockRight0002.png</key>
+            <key type="filename">../../../../art_source/player/impShockRight0003.png</key>
+            <key type="filename">../../../../art_source/player/impShockRight0004.png</key>
+            <key type="filename">../../../../art_source/player/impShockRight0005.png</key>
+            <key type="filename">../../../../art_source/player/impShockRight0006.png</key>
+            <key type="filename">../../../../art_source/player/impShockUp1.png</key>
+            <key type="filename">../../../../art_source/player/impShockUp2.png</key>
+            <key type="filename">../../../../art_source/player/impShockUp3.png</key>
+            <key type="filename">../../../../art_source/player/impShockUp4.png</key>
+            <key type="filename">../../../../art_source/player/impShockUp5.png</key>
+            <key type="filename">../../../../art_source/player/impShockUp6.png</key>
+            <key type="filename">../../../../art_source/player/impSpawn1.png</key>
+            <key type="filename">../../../../art_source/player/impSpawn10.png</key>
+            <key type="filename">../../../../art_source/player/impSpawn11.png</key>
+            <key type="filename">../../../../art_source/player/impSpawn12.png</key>
+            <key type="filename">../../../../art_source/player/impSpawn2.png</key>
+            <key type="filename">../../../../art_source/player/impSpawn3.png</key>
+            <key type="filename">../../../../art_source/player/impSpawn4.png</key>
+            <key type="filename">../../../../art_source/player/impSpawn5.png</key>
+            <key type="filename">../../../../art_source/player/impSpawn6.png</key>
+            <key type="filename">../../../../art_source/player/impSpawn7.png</key>
+            <key type="filename">../../../../art_source/player/impSpawn8.png</key>
+            <key type="filename">../../../../art_source/player/impSpawn9.png</key>
+            <key type="filename">../../../../art_source/player/impStandDiagBack.png</key>
+            <key type="filename">../../../../art_source/player/impStandDiagBackRight.png</key>
+            <key type="filename">../../../../art_source/player/impStandDiagFront.png</key>
+            <key type="filename">../../../../art_source/player/impStandDiagFrontRight.png</key>
+            <key type="filename">../../../../art_source/player/impStandRight.png</key>
+            <key type="filename">../../../../art_source/player/impVictory1.png</key>
+            <key type="filename">../../../../art_source/player/impVictory2.png</key>
+            <key type="filename">../../../../art_source/player/impVictory3.png</key>
+            <key type="filename">../../../../art_source/player/impVictory4.png</key>
+            <key type="filename">../../../../art_source/player/impVictory5.png</key>
+            <key type="filename">../../../../art_source/player/impVictory6.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagBack1.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagBack2.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagBack3.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagBack4.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagBack5.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagBack6.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagBackRight0001.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagBackRight0002.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagBackRight0003.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagBackRight0004.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagBackRight0005.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagBackRight0006.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagFront1.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagFront2.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagFront3.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagFront4.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagFront5.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagFront6.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagFrontRight0001.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagFrontRight0002.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagFrontRight0003.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagFrontRight0004.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagFrontRight0005.png</key>
+            <key type="filename">../../../../art_source/player/impWalkDiagFrontRight0006.png</key>
+            <key type="filename">../../../../art_source/player/impWalkRight0001.png</key>
+            <key type="filename">../../../../art_source/player/impWalkRight0002.png</key>
+            <key type="filename">../../../../art_source/player/impWalkRight0003.png</key>
+            <key type="filename">../../../../art_source/player/impWalkRight0004.png</key>
+            <key type="filename">../../../../art_source/player/impWalkRight0005.png</key>
+            <key type="filename">../../../../art_source/player/impWalkRight0006.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>8,10,15,20</rect>
+                <key>scale9Paddings</key>
+                <rect>8,10,15,20</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">../../../../art_source/player/impPullDown1.png</key>
             <key type="filename">../../../../art_source/player/impPullDown2.png</key>
             <key type="filename">../../../../art_source/player/impPullDown3.png</key>
@@ -247,54 +420,6 @@
                 <rect>8,9,15,17</rect>
                 <key>scale9Paddings</key>
                 <rect>8,9,15,17</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">../../../../art_source/player/impShockDown1.png</key>
-            <key type="filename">../../../../art_source/player/impShockDown2.png</key>
-            <key type="filename">../../../../art_source/player/impShockDown3.png</key>
-            <key type="filename">../../../../art_source/player/impShockDown4.png</key>
-            <key type="filename">../../../../art_source/player/impShockDown5.png</key>
-            <key type="filename">../../../../art_source/player/impShockDown6.png</key>
-            <key type="filename">../../../../art_source/player/impShockLeft1.png</key>
-            <key type="filename">../../../../art_source/player/impShockLeft2.png</key>
-            <key type="filename">../../../../art_source/player/impShockLeft3.png</key>
-            <key type="filename">../../../../art_source/player/impShockLeft4.png</key>
-            <key type="filename">../../../../art_source/player/impShockLeft5.png</key>
-            <key type="filename">../../../../art_source/player/impShockLeft6.png</key>
-            <key type="filename">../../../../art_source/player/impShockUp1.png</key>
-            <key type="filename">../../../../art_source/player/impShockUp2.png</key>
-            <key type="filename">../../../../art_source/player/impShockUp3.png</key>
-            <key type="filename">../../../../art_source/player/impShockUp4.png</key>
-            <key type="filename">../../../../art_source/player/impShockUp5.png</key>
-            <key type="filename">../../../../art_source/player/impShockUp6.png</key>
-            <key type="filename">../../../../art_source/player/impSpawn1.png</key>
-            <key type="filename">../../../../art_source/player/impSpawn10.png</key>
-            <key type="filename">../../../../art_source/player/impSpawn11.png</key>
-            <key type="filename">../../../../art_source/player/impSpawn12.png</key>
-            <key type="filename">../../../../art_source/player/impSpawn2.png</key>
-            <key type="filename">../../../../art_source/player/impSpawn3.png</key>
-            <key type="filename">../../../../art_source/player/impSpawn4.png</key>
-            <key type="filename">../../../../art_source/player/impSpawn5.png</key>
-            <key type="filename">../../../../art_source/player/impSpawn6.png</key>
-            <key type="filename">../../../../art_source/player/impSpawn7.png</key>
-            <key type="filename">../../../../art_source/player/impSpawn8.png</key>
-            <key type="filename">../../../../art_source/player/impSpawn9.png</key>
-            <key type="filename">../../../../art_source/player/impVictory1.png</key>
-            <key type="filename">../../../../art_source/player/impVictory2.png</key>
-            <key type="filename">../../../../art_source/player/impVictory3.png</key>
-            <key type="filename">../../../../art_source/player/impVictory4.png</key>
-            <key type="filename">../../../../art_source/player/impVictory5.png</key>
-            <key type="filename">../../../../art_source/player/impVictory6.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>8,10,15,20</rect>
-                <key>scale9Paddings</key>
-                <rect>8,10,15,20</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>

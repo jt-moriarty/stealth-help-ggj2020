@@ -37,18 +37,9 @@ public class GameController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R)) {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-        /*if (Input.GetKeyDown(KeyCode.U)) {
-            Doors[0].Open();
+        if (gameOver && Input.GetKeyDown(KeyCode.Q)) {
+            Application.Quit();
         }
-        if (Input.GetKeyDown(KeyCode.J)) {
-            Doors[0].Close();
-        }
-        if (Input.GetKeyDown(KeyCode.H)) {
-
-        }
-        if (Input.GetKeyDown(KeyCode.K)) {
-
-        }*/
     }
 
     public void GameOver (bool win) {
@@ -56,7 +47,7 @@ public class GameController : MonoBehaviour
             //Debug.Log("GAME OVER");
             gameOver = true;
             player.GameOver();
-            uiController.ShowEventMessage(win ? "You Win!" : "Game Over!");
+            uiController.ShowEventMessage(win ? System.Text.RegularExpressions.Regex.Unescape("You Win!\nPress R to Restart\n or Q to Quit") : System.Text.RegularExpressions.Regex.Unescape("Game Over!\nPress R to Restart\n or Q to Quit"));
         }
     }
 

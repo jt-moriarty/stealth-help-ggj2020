@@ -230,6 +230,7 @@ MonoBehaviour:
   coll: {fileID: 2819267977306885181}
   held: {fileID: 0}
   originalHeldParent: {fileID: 0}
+  animator: {fileID: 7493831339521004564}
 --- !u!50 &2819267977306885178
 Rigidbody2D:
   serializedVersion: 4

@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
 
     public KickObject held;
     public Transform originalHeldParent;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,13 @@ public class PlayerController : MonoBehaviour
     {
         ProcessInputs();
         Move();
+        Animate();
+    }
+
+    void Animate() {
+        animator.SetFloat("Horizontal", movementDirection.x);
+        animator.SetFloat("Vertical", movementDirection.y);
+        animator.SetFloat("Speed", movementSpeed);
     }
 
     void ProcessInputs() {
@@ -141,25 +149,29 @@ public class PlayerController : MonoBehaviour
         // destination - source
         Vector2 playerDirection = -(castDestination - castOrigin);
 
-        Debug.DrawRay(light.transform.position, lightForward, Color.cyan);//, 10f);
-        Debug.DrawRay(light.transform.position, playerDirection, Color.cyan);//, 10f);
-        Debug.DrawRay(light.transform.position, parentForward, Color.red);//, 10f);
-
         // Last check if the angle frees us
         //TODO: add angle checking.
         if (seen) {
 
-            Debug.Log("ANGLE " + Vector2.Angle(playerDirection, lightForward));
-            Debug.Log("FORWARD ANGLE " + Vector2.Angle(playerDirection, parentForward));
-            Debug.Log("TARGET " + (light.pointLightOuterAngle / 2f));
+            //Debug.Log("ANGLE " + Vector2.Angle(playerDirection, lightForward));
+            //Debug.Log("FORWARD ANGLE " + Vector2.Angle(playerDirection, parentForward));
+            //Debug.Log("pointLightOuterAngle " + light.pointLightOuterAngle);
+            //Debug.Log("pointLightOuterAngle " + light.pointLightInnerAngle);
 
-            UnityEditor.EditorApplication.isPaused = true;
-            if (Vector2.Angle(playerDirection, lightForward) < (light.pointLightOuterAngle / 2f)) {
+            //UnityEditor.EditorApplication.isPaused = true;
+            if (Vector2.Angle(playerDirection, lightForward) > (light.pointLightOuterAngle / 2f)) {
                 seen = false;
-                //Debug.Log("ESCAPED");
+                Debug.DrawRay(light.transform.position, lightForward, Color.cyan);
+                Debug.DrawRay(light.transform.position, playerDirection, Color.cyan);
+            }
+            else {
+                Debug.DrawRay(light.transform.position, lightForward, Color.red);
+                Debug.DrawRay(light.transform.position, playerDirection, Color.red);
             }
         }
 
+
+        //seen = false;
         /*if (seen) {
             Debug.DrawLine(castOrigin, castDestination, Color.red, 1f);
         }

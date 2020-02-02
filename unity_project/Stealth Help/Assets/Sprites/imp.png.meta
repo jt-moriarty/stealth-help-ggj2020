@@ -281,6 +281,381 @@ TextureImporter:
   - first:
       213: -3011385159894734057
     second: impSpawn12
+  - first:
+      213: -8077983386671734573
+    second: impPullDiagBack1
+  - first:
+      213: 8899217115689590177
+    second: impPullDiagBack2
+  - first:
+      213: -864018356271305213
+    second: impPullDiagBack3
+  - first:
+      213: 1438543627804798672
+    second: impPullDiagBack4
+  - first:
+      213: -6984624317036382165
+    second: impPullDiagBack5
+  - first:
+      213: 584805333761178028
+    second: impPullDiagBack6
+  - first:
+      213: 1798817914372007779
+    second: impPullDiagFront1
+  - first:
+      213: -286996099513419952
+    second: impPullDiagFront2
+  - first:
+      213: 1576680083913176125
+    second: impPullDiagFront3
+  - first:
+      213: -5871140185907399060
+    second: impPullDiagFront4
+  - first:
+      213: -1761026283587977138
+    second: impPullDiagFront5
+  - first:
+      213: 472134729436339316
+    second: impPullDiagFront6
+  - first:
+      213: 8130877346245522064
+    second: impPushDiagBack1
+  - first:
+      213: 1171888271067440061
+    second: impPushDiagBack2
+  - first:
+      213: 6783597809847549551
+    second: impPushDiagBack3
+  - first:
+      213: -6051737098547048057
+    second: impPushDiagBack4
+  - first:
+      213: 2980162869866732397
+    second: impPushDiagBack5
+  - first:
+      213: -2925783096691436696
+    second: impPushDiagBack6
+  - first:
+      213: 4788081225831407898
+    second: impPushDiagFront1
+  - first:
+      213: 8968151093475052819
+    second: impPushDiagFront2
+  - first:
+      213: 4138575799457675474
+    second: impPushDiagFront3
+  - first:
+      213: 4782601475651740780
+    second: impPushDiagFront4
+  - first:
+      213: 3544876886328010070
+    second: impPushDiagFront5
+  - first:
+      213: 698531113434477570
+    second: impPushDiagFront6
+  - first:
+      213: -4534969782423967109
+    second: impShockDiagBack1
+  - first:
+      213: -6832194497620946915
+    second: impShockDiagBack2
+  - first:
+      213: -882506298501517911
+    second: impShockDiagBack3
+  - first:
+      213: -4490680467418133761
+    second: impShockDiagBack4
+  - first:
+      213: 556460924627546955
+    second: impShockDiagBack5
+  - first:
+      213: 4589894230070805899
+    second: impShockDiagBack6
+  - first:
+      213: 3818279798571349612
+    second: impShockDiagFront1
+  - first:
+      213: -611651175619846230
+    second: impShockDiagFront2
+  - first:
+      213: -4005726299771543083
+    second: impShockDiagFront3
+  - first:
+      213: 2285411315436310634
+    second: impShockDiagFront4
+  - first:
+      213: 4052797962956780593
+    second: impShockDiagFront5
+  - first:
+      213: 4814662329551660004
+    second: impShockDiagFront6
+  - first:
+      213: -4162676021503741207
+    second: impStandDiagBack
+  - first:
+      213: 3245493599004854575
+    second: impStandDiagFront
+  - first:
+      213: -3605382163077574054
+    second: impWalkDiagBack1
+  - first:
+      213: -7177824500865382123
+    second: impWalkDiagBack2
+  - first:
+      213: 759975515329781529
+    second: impWalkDiagBack3
+  - first:
+      213: -864417981858065949
+    second: impWalkDiagBack4
+  - first:
+      213: -5210115999461552971
+    second: impWalkDiagBack5
+  - first:
+      213: -7601647307355288244
+    second: impWalkDiagBack6
+  - first:
+      213: 3597275064527470317
+    second: impWalkDiagFront1
+  - first:
+      213: 6825664702663471080
+    second: impWalkDiagFront2
+  - first:
+      213: 284549104268365202
+    second: impWalkDiagFront3
+  - first:
+      213: 4270421547192236367
+    second: impWalkDiagFront4
+  - first:
+      213: -6608377914182615898
+    second: impWalkDiagFront5
+  - first:
+      213: 5885969930588251752
+    second: impWalkDiagFront6
+  - first:
+      213: -3551937190320020304
+    second: impPullDiagBackRight0001
+  - first:
+      213: 6748440661746703200
+    second: impPullDiagBackRight0002
+  - first:
+      213: 2239941033233681746
+    second: impPullDiagBackRight0003
+  - first:
+      213: 4911271454428396650
+    second: impPullDiagBackRight0004
+  - first:
+      213: 531201696536802040
+    second: impPullDiagBackRight0005
+  - first:
+      213: -1326395318767158862
+    second: impPullDiagBackRight0006
+  - first:
+      213: -1415412919317421619
+    second: impPullDiagFrontRight0001
+  - first:
+      213: 4080291873698013708
+    second: impPullDiagFrontRight0002
+  - first:
+      213: -4395283690057461995
+    second: impPullDiagFrontRight0003
+  - first:
+      213: -9204593933450486358
+    second: impPullDiagFrontRight0004
+  - first:
+      213: -1504914421028087151
+    second: impPullDiagFrontRight0005
+  - first:
+      213: -1679382719036104338
+    second: impPullDiagFrontRight0006
+  - first:
+      213: 6001650891063227698
+    second: impPullRight0001
+  - first:
+      213: -3043639259669059425
+    second: impPullRight0002
+  - first:
+      213: 8700352317291739620
+    second: impPullRight0003
+  - first:
+      213: -7383207722140291940
+    second: impPullRight0004
+  - first:
+      213: -2611807803930905343
+    second: impPullRight0005
+  - first:
+      213: -952346789499549877
+    second: impPullRight0006
+  - first:
+      213: -955912054841126249
+    second: impPushDiagBackRight0001
+  - first:
+      213: 6950642427118327283
+    second: impPushDiagBackRight0002
+  - first:
+      213: 94252411674273550
+    second: impPushDiagBackRight0003
+  - first:
+      213: 1014793847090279309
+    second: impPushDiagBackRight0004
+  - first:
+      213: 5160841862309749256
+    second: impPushDiagBackRight0005
+  - first:
+      213: -5144321667602992681
+    second: impPushDiagBackRight0006
+  - first:
+      213: 7101107562260964330
+    second: impPushDiagFrontRight0001
+  - first:
+      213: 4367269629533282639
+    second: impPushDiagFrontRight0002
+  - first:
+      213: 8741026259369434974
+    second: impPushDiagFrontRight0003
+  - first:
+      213: 6053636934942520080
+    second: impPushDiagFrontRight0004
+  - first:
+      213: -1506637788491525429
+    second: impPushDiagFrontRight0005
+  - first:
+      213: -6154264440754349211
+    second: impPushDiagFrontRight0006
+  - first:
+      213: 3636591393645029813
+    second: impPushRight0001
+  - first:
+      213: -208462507123411151
+    second: impPushRight0002
+  - first:
+      213: -3806452492354872257
+    second: impPushRight0003
+  - first:
+      213: 4664794133040643900
+    second: impPushRight0004
+  - first:
+      213: 364776614402798641
+    second: impPushRight0005
+  - first:
+      213: -1050256366889119406
+    second: impPushRight0006
+  - first:
+      213: -1145056686762449193
+    second: impShockDiagBackRight0001
+  - first:
+      213: 5827823551829385462
+    second: impShockDiagBackRight0002
+  - first:
+      213: -1850677864154567713
+    second: impShockDiagBackRight0003
+  - first:
+      213: -1294856145783010129
+    second: impShockDiagBackRight0004
+  - first:
+      213: 7632859724936738151
+    second: impShockDiagBackRight0005
+  - first:
+      213: -2188590467535969465
+    second: impShockDiagBackRight0006
+  - first:
+      213: -6686457967876775517
+    second: impShockDiagFrontRight0001
+  - first:
+      213: -3088807634649970816
+    second: impShockDiagFrontRight0002
+  - first:
+      213: 7079885271753768962
+    second: impShockDiagFrontRight0003
+  - first:
+      213: -5452039377197861167
+    second: impShockDiagFrontRight0004
+  - first:
+      213: 5665105310498584156
+    second: impShockDiagFrontRight0005
+  - first:
+      213: 6767725402533792110
+    second: impShockDiagFrontRight0006
+  - first:
+      213: -3597240056957978500
+    second: impShockRight0001
+  - first:
+      213: -6637207370822166531
+    second: impShockRight0002
+  - first:
+      213: 4884046731720666300
+    second: impShockRight0003
+  - first:
+      213: 5914750003569422839
+    second: impShockRight0004
+  - first:
+      213: -2950351414492366944
+    second: impShockRight0005
+  - first:
+      213: -8319448132505862204
+    second: impShockRight0006
+  - first:
+      213: 3206994365762907853
+    second: impStandDiagBackRight
+  - first:
+      213: 1609539980002385116
+    second: impStandDiagFrontRight
+  - first:
+      213: 2069618568849585226
+    second: impStandRight
+  - first:
+      213: 1717603373812657153
+    second: impWalkDiagBackRight0001
+  - first:
+      213: 2756615143340239675
+    second: impWalkDiagBackRight0002
+  - first:
+      213: -714360866949410279
+    second: impWalkDiagBackRight0003
+  - first:
+      213: -7544759655938502729
+    second: impWalkDiagBackRight0004
+  - first:
+      213: 6272422153873043734
+    second: impWalkDiagBackRight0005
+  - first:
+      213: 8939555820256875345
+    second: impWalkDiagBackRight0006
+  - first:
+      213: 4509052880633171638
+    second: impWalkDiagFrontRight0001
+  - first:
+      213: 4719763020703493382
+    second: impWalkDiagFrontRight0002
+  - first:
+      213: 5229383588151915906
+    second: impWalkDiagFrontRight0003
+  - first:
+      213: 8869772134235192045
+    second: impWalkDiagFrontRight0004
+  - first:
+      213: 2452385248444114133
+    second: impWalkDiagFrontRight0005
+  - first:
+      213: -7066746624893539138
+    second: impWalkDiagFrontRight0006
+  - first:
+      213: -1273900008375269258
+    second: impWalkRight0001
+  - first:
+      213: -5379566968577090961
+    second: impWalkRight0002
+  - first:
+      213: -1712756401440393310
+    second: impWalkRight0003
+  - first:
+      213: -7325605737074487333
+    second: impWalkRight0004
+  - first:
+      213: -962107389828875015
+    second: impWalkRight0005
+  - first:
+      213: -4332937994393608565
+    second: impWalkRight0006
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -401,11 +776,515 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: impPullDown1
+      name: impPullDiagBack1
       rect:
         serializedVersion: 2
         x: 1
-        y: 471
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0ace7a8ec35ef80800000000000000
+      internalID: -8077983386671734573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagBack2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad11cf01de508b70800000000000000
+      internalID: 8899217115689590177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagBack3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e280bf1e36204f0800000000000000
+      internalID: -864018356271305213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagBack4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dee439cecbb6f310800000000000000
+      internalID: 1438543627804798672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagBack5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28bd759031a11f90800000000000000
+      internalID: -6984624317036382165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagBack6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9b6954a55ad1800800000000000000
+      internalID: 584805333761178028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagBackRight0001
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4e972c1fbf4bec0800000000000000
+      internalID: -3551937190320020304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagBackRight0002
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bd63fe60747ad50800000000000000
+      internalID: 6748440661746703200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagBackRight0003
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d07b3808ed51f10800000000000000
+      internalID: 2239941033233681746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagBackRight0004
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c78b4ed57582440800000000000000
+      internalID: 4911271454428396650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagBackRight0005
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2392ae0253f5700800000000000000
+      internalID: 531201696536802040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagBackRight0006
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b974213c72b79de0800000000000000
+      internalID: -1326395318767158862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagFront1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367a0c1dc5fa6f810800000000000000
+      internalID: 1798817914372007779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagFront2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057749c6192640cf0800000000000000
+      internalID: -286996099513419952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagFront3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34f316ce2e71e510800000000000000
+      internalID: 1576680083913176125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagFront4
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 983
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66f7788b15858ea0800000000000000
+      internalID: -5871140185907399060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagFront5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 942
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40cc96ece39f87e0800000000000000
+      internalID: -1761026283587977138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagFront6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 942
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c9d22f80c5d8600800000000000000
+      internalID: 472134729436339316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagFrontRight0001
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 942
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc12695f2717b5ce0800000000000000
+      internalID: -1415412919317421619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagFrontRight0002
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 942
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02eeaf37db10a830800000000000000
+      internalID: 4080291873698013708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagFrontRight0003
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 942
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f8e0765c0d003c0800000000000000
+      internalID: -4395283690057461995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagFrontRight0004
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 942
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadd7f6e596b24080800000000000000
+      internalID: -9204593933450486358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagFrontRight0005
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 942
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a1245be487d1be0800000000000000
+      internalID: -1504914421028087151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDiagFrontRight0006
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 942
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e616ce59052a1b8e0800000000000000
+      internalID: -1679382719036104338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDown1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 942
         width: 30
         height: 40
       alignment: 0
@@ -425,8 +1304,8 @@ TextureImporter:
       name: impPullDown2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 471
+        x: 280
+        y: 942
         width: 30
         height: 40
       alignment: 0
@@ -446,8 +1325,8 @@ TextureImporter:
       name: impPullDown3
       rect:
         serializedVersion: 2
-        x: 63
-        y: 471
+        x: 311
+        y: 942
         width: 30
         height: 40
       alignment: 0
@@ -467,8 +1346,8 @@ TextureImporter:
       name: impPullDown4
       rect:
         serializedVersion: 2
-        x: 94
-        y: 471
+        x: 342
+        y: 942
         width: 30
         height: 40
       alignment: 0
@@ -488,8 +1367,8 @@ TextureImporter:
       name: impPullDown5
       rect:
         serializedVersion: 2
-        x: 125
-        y: 471
+        x: 373
+        y: 942
         width: 30
         height: 40
       alignment: 0
@@ -509,8 +1388,8 @@ TextureImporter:
       name: impPullDown6
       rect:
         serializedVersion: 2
-        x: 156
-        y: 471
+        x: 404
+        y: 942
         width: 30
         height: 40
       alignment: 0
@@ -530,8 +1409,8 @@ TextureImporter:
       name: impPullLeft1
       rect:
         serializedVersion: 2
-        x: 187
-        y: 471
+        x: 435
+        y: 942
         width: 30
         height: 40
       alignment: 0
@@ -551,8 +1430,8 @@ TextureImporter:
       name: impPullLeft2
       rect:
         serializedVersion: 2
-        x: 218
-        y: 471
+        x: 466
+        y: 942
         width: 30
         height: 40
       alignment: 0
@@ -573,7 +1452,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 430
+        y: 901
         width: 30
         height: 40
       alignment: 0
@@ -594,7 +1473,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 430
+        y: 901
         width: 30
         height: 40
       alignment: 0
@@ -615,7 +1494,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 63
-        y: 430
+        y: 901
         width: 30
         height: 40
       alignment: 0
@@ -636,7 +1515,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 94
-        y: 430
+        y: 901
         width: 30
         height: 40
       alignment: 0
@@ -653,11 +1532,137 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: impPullUp1
+      name: impPullRight0001
       rect:
         serializedVersion: 2
         x: 125
-        y: 430
+        y: 901
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235fab3ffa52a4350800000000000000
+      internalID: 6001650891063227698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullRight0002
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 901
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f982efe1832d2c5d0800000000000000
+      internalID: -3043639259669059425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullRight0003
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 901
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9bbec065cddb870800000000000000
+      internalID: 8700352317291739620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullRight0004
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 901
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c28e2d1b3998990800000000000000
+      internalID: -7383207722140291940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullRight0005
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 901
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105fa19e3aef0cbd0800000000000000
+      internalID: -2611807803930905343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullRight0006
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 901
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4745e404a598c2f0800000000000000
+      internalID: -952346789499549877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullUp1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 901
         width: 30
         height: 40
       alignment: 0
@@ -677,8 +1682,8 @@ TextureImporter:
       name: impPullUp2
       rect:
         serializedVersion: 2
-        x: 156
-        y: 430
+        x: 342
+        y: 901
         width: 30
         height: 40
       alignment: 0
@@ -698,8 +1703,8 @@ TextureImporter:
       name: impPullUp3
       rect:
         serializedVersion: 2
-        x: 187
-        y: 430
+        x: 373
+        y: 901
         width: 30
         height: 40
       alignment: 0
@@ -719,8 +1724,8 @@ TextureImporter:
       name: impPullUp4
       rect:
         serializedVersion: 2
-        x: 218
-        y: 430
+        x: 404
+        y: 901
         width: 30
         height: 40
       alignment: 0
@@ -740,8 +1745,8 @@ TextureImporter:
       name: impPullUp5
       rect:
         serializedVersion: 2
-        x: 1
-        y: 389
+        x: 435
+        y: 901
         width: 30
         height: 40
       alignment: 0
@@ -761,8 +1766,8 @@ TextureImporter:
       name: impPullUp6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 389
+        x: 466
+        y: 901
         width: 30
         height: 40
       alignment: 0
@@ -779,11 +1784,515 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: impPushDown1
+      name: impPushDiagBack1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0923c3ffddda6d070800000000000000
+      internalID: 8130877346245522064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagBack2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3eb617c22634010800000000000000
+      internalID: 1171888271067440061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagBack3
       rect:
         serializedVersion: 2
         x: 63
-        y: 389
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6eb41b544e242e50800000000000000
+      internalID: 6783597809847549551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagBack4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781dc0f1c29e30ca0800000000000000
+      internalID: -6051737098547048057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagBack5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b173f275aab5920800000000000000
+      internalID: 2980162869866732397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagBack6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8635dd766c78567d0800000000000000
+      internalID: -2925783096691436696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagBackRight0001
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7925eaefc0bebb2f0800000000000000
+      internalID: -955912054841126249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagBackRight0002
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5952d1674a57060800000000000000
+      internalID: 6950642427118327283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagBackRight0003
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07a11da11ade4100800000000000000
+      internalID: 94252411674273550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagBackRight0004
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83711890a5451e00800000000000000
+      internalID: 1014793847090279309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagBackRight0005
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80220f8945efe9740800000000000000
+      internalID: 5160841862309749256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagBackRight0006
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1bd28f2b2bb98b0800000000000000
+      internalID: -5144321667602992681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagFront1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11e56da18ea27240800000000000000
+      internalID: 4788081225831407898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagFront2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d8c9a77e5457c70800000000000000
+      internalID: 8968151093475052819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagFront3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8f3b233cc2f6930800000000000000
+      internalID: 4138575799457675474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagFront4
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 860
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c642b7ae3b63f5240800000000000000
+      internalID: 4782601475651740780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagFront5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 819
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655e21e1fbee13130800000000000000
+      internalID: 3544876886328010070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagFront6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 819
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204f1d0c85ea1b900800000000000000
+      internalID: 698531113434477570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagFrontRight0001
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 819
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3a76064b33c8260800000000000000
+      internalID: 7101107562260964330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagFrontRight0002
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 819
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41eeaad698ab9c30800000000000000
+      internalID: 4367269629533282639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagFrontRight0003
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 819
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f931a221d5e4970800000000000000
+      internalID: 8741026259369434974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagFrontRight0004
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 819
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013fe6208b6d20450800000000000000
+      internalID: 6053636934942520080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagFrontRight0005
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 819
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc258c3f9e8571be0800000000000000
+      internalID: -1506637788491525429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDiagFrontRight0006
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 819
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bd40b0919a79aa0800000000000000
+      internalID: -6154264440754349211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDown1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 819
         width: 30
         height: 40
       alignment: 0
@@ -803,8 +2312,8 @@ TextureImporter:
       name: impPushDown2
       rect:
         serializedVersion: 2
-        x: 94
-        y: 389
+        x: 280
+        y: 819
         width: 30
         height: 40
       alignment: 0
@@ -824,8 +2333,8 @@ TextureImporter:
       name: impPushDown3
       rect:
         serializedVersion: 2
-        x: 125
-        y: 389
+        x: 311
+        y: 819
         width: 30
         height: 40
       alignment: 0
@@ -845,8 +2354,8 @@ TextureImporter:
       name: impPushDown4
       rect:
         serializedVersion: 2
-        x: 156
-        y: 389
+        x: 342
+        y: 819
         width: 30
         height: 40
       alignment: 0
@@ -866,8 +2375,8 @@ TextureImporter:
       name: impPushDown5
       rect:
         serializedVersion: 2
-        x: 187
-        y: 389
+        x: 373
+        y: 819
         width: 30
         height: 40
       alignment: 0
@@ -887,8 +2396,8 @@ TextureImporter:
       name: impPushDown6
       rect:
         serializedVersion: 2
-        x: 218
-        y: 389
+        x: 404
+        y: 819
         width: 30
         height: 40
       alignment: 0
@@ -908,8 +2417,8 @@ TextureImporter:
       name: impPushLeft1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 348
+        x: 435
+        y: 819
         width: 30
         height: 40
       alignment: 0
@@ -929,8 +2438,8 @@ TextureImporter:
       name: impPushLeft2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 348
+        x: 466
+        y: 819
         width: 30
         height: 40
       alignment: 0
@@ -950,8 +2459,8 @@ TextureImporter:
       name: impPushLeft3
       rect:
         serializedVersion: 2
-        x: 63
-        y: 348
+        x: 1
+        y: 778
         width: 30
         height: 40
       alignment: 0
@@ -971,8 +2480,8 @@ TextureImporter:
       name: impPushLeft4
       rect:
         serializedVersion: 2
-        x: 94
-        y: 348
+        x: 32
+        y: 778
         width: 30
         height: 40
       alignment: 0
@@ -992,8 +2501,8 @@ TextureImporter:
       name: impPushLeft5
       rect:
         serializedVersion: 2
-        x: 125
-        y: 348
+        x: 63
+        y: 778
         width: 30
         height: 40
       alignment: 0
@@ -1013,8 +2522,8 @@ TextureImporter:
       name: impPushLeft6
       rect:
         serializedVersion: 2
-        x: 156
-        y: 348
+        x: 94
+        y: 778
         width: 30
         height: 40
       alignment: 0
@@ -1031,11 +2540,137 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: impPushUp1
+      name: impPushRight0001
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 778
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b96473ea94c77230800000000000000
+      internalID: 3636591393645029813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushRight0002
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 778
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137fbe944746b1df0800000000000000
+      internalID: -208462507123411151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushRight0003
       rect:
         serializedVersion: 2
         x: 187
-        y: 348
+        y: 778
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c99ca20a3cc2bc0800000000000000
+      internalID: -3806452492354872257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushRight0004
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 778
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fb6328c8dacb040800000000000000
+      internalID: 4664794133040643900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushRight0005
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 778
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13439dbe562ff0500800000000000000
+      internalID: 364776614402798641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushRight0006
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 778
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2515b78166dbc61f0800000000000000
+      internalID: -1050256366889119406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushUp1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 778
         width: 30
         height: 40
       alignment: 0
@@ -1055,8 +2690,8 @@ TextureImporter:
       name: impPushUp2
       rect:
         serializedVersion: 2
-        x: 218
-        y: 348
+        x: 342
+        y: 778
         width: 30
         height: 40
       alignment: 0
@@ -1076,8 +2711,8 @@ TextureImporter:
       name: impPushUp3
       rect:
         serializedVersion: 2
-        x: 1
-        y: 307
+        x: 373
+        y: 778
         width: 30
         height: 40
       alignment: 0
@@ -1097,8 +2732,8 @@ TextureImporter:
       name: impPushUp4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 307
+        x: 404
+        y: 778
         width: 30
         height: 40
       alignment: 0
@@ -1118,8 +2753,8 @@ TextureImporter:
       name: impPushUp5
       rect:
         serializedVersion: 2
-        x: 63
-        y: 307
+        x: 435
+        y: 778
         width: 30
         height: 40
       alignment: 0
@@ -1139,8 +2774,8 @@ TextureImporter:
       name: impPushUp6
       rect:
         serializedVersion: 2
-        x: 94
-        y: 307
+        x: 466
+        y: 778
         width: 30
         height: 40
       alignment: 0
@@ -1157,11 +2792,515 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: impShockDown1
+      name: impShockDiagBack1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a2d7b920d8011c0800000000000000
+      internalID: -4534969782423967109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagBack2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10dcec8d4b2f21a0800000000000000
+      internalID: -6832194497620946915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagBack3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ada5cd7235b0c3f0800000000000000
+      internalID: -882506298501517911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagBack4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffac1c358e5eda1c0800000000000000
+      internalID: -4490680467418133761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagBack5
       rect:
         serializedVersion: 2
         x: 125
-        y: 307
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b437fcf3342f8b700800000000000000
+      internalID: 556460924627546955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagBack6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b854cf3eb7492bf30800000000000000
+      internalID: 4589894230070805899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagBackRight0001
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6a6d99201fb10f0800000000000000
+      internalID: -1145056686762449193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagBackRight0002
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0227ca4a690e050800000000000000
+      internalID: 5827823551829385462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagBackRight0003
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb6361b9421156e0800000000000000
+      internalID: -1850677864154567713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagBackRight0004
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac4f53223fb70ee0800000000000000
+      internalID: -1294856145783010129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagBackRight0005
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7657d3daa7d5de960800000000000000
+      internalID: 7632859724936738151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagBackRight0006
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74366bfb09090a1e0800000000000000
+      internalID: -2188590467535969465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagFront1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6635e62f314df430800000000000000
+      internalID: 3818279798571349612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagFront2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf9ab61f7af287f0800000000000000
+      internalID: -611651175619846230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagFront3
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d16da2572dc868c0800000000000000
+      internalID: -4005726299771543083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagFront4
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 737
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a605d369b7967bf10800000000000000
+      internalID: 2285411315436310634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagFront5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 696
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1343770564e6e3830800000000000000
+      internalID: 4052797962956780593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagFront6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 696
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3a16a21ed11d240800000000000000
+      internalID: 4814662329551660004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagFrontRight0001
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 696
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1ef1397ede433a0800000000000000
+      internalID: -6686457967876775517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagFrontRight0002
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 696
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0878c2d42d95225d0800000000000000
+      internalID: -3088807634649970816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagFrontRight0003
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 696
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2004761d42ec04260800000000000000
+      internalID: 7079885271753768962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagFrontRight0004
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 696
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6fda492177654b0800000000000000
+      internalID: -5452039377197861167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagFrontRight0005
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 696
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56727fc34f7e9e40800000000000000
+      internalID: 5665105310498584156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDiagFrontRight0006
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 696
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e690a6b856acbed50800000000000000
+      internalID: 6767725402533792110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDown1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 696
         width: 30
         height: 40
       alignment: 0
@@ -1181,8 +3320,8 @@ TextureImporter:
       name: impShockDown2
       rect:
         serializedVersion: 2
-        x: 156
-        y: 307
+        x: 280
+        y: 696
         width: 30
         height: 40
       alignment: 0
@@ -1202,8 +3341,8 @@ TextureImporter:
       name: impShockDown3
       rect:
         serializedVersion: 2
-        x: 187
-        y: 307
+        x: 311
+        y: 696
         width: 30
         height: 40
       alignment: 0
@@ -1223,8 +3362,8 @@ TextureImporter:
       name: impShockDown4
       rect:
         serializedVersion: 2
-        x: 218
-        y: 307
+        x: 342
+        y: 696
         width: 30
         height: 40
       alignment: 0
@@ -1244,8 +3383,8 @@ TextureImporter:
       name: impShockDown5
       rect:
         serializedVersion: 2
-        x: 1
-        y: 266
+        x: 373
+        y: 696
         width: 30
         height: 40
       alignment: 0
@@ -1265,8 +3404,8 @@ TextureImporter:
       name: impShockDown6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 266
+        x: 404
+        y: 696
         width: 30
         height: 40
       alignment: 0
@@ -1286,8 +3425,8 @@ TextureImporter:
       name: impShockLeft1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 266
+        x: 435
+        y: 696
         width: 30
         height: 40
       alignment: 0
@@ -1307,8 +3446,8 @@ TextureImporter:
       name: impShockLeft2
       rect:
         serializedVersion: 2
-        x: 94
-        y: 266
+        x: 466
+        y: 696
         width: 30
         height: 40
       alignment: 0
@@ -1328,8 +3467,8 @@ TextureImporter:
       name: impShockLeft3
       rect:
         serializedVersion: 2
-        x: 125
-        y: 266
+        x: 1
+        y: 655
         width: 30
         height: 40
       alignment: 0
@@ -1349,8 +3488,8 @@ TextureImporter:
       name: impShockLeft4
       rect:
         serializedVersion: 2
-        x: 156
-        y: 266
+        x: 32
+        y: 655
         width: 30
         height: 40
       alignment: 0
@@ -1370,8 +3509,8 @@ TextureImporter:
       name: impShockLeft5
       rect:
         serializedVersion: 2
-        x: 187
-        y: 266
+        x: 63
+        y: 655
         width: 30
         height: 40
       alignment: 0
@@ -1391,8 +3530,8 @@ TextureImporter:
       name: impShockLeft6
       rect:
         serializedVersion: 2
-        x: 218
-        y: 266
+        x: 94
+        y: 655
         width: 30
         height: 40
       alignment: 0
@@ -1409,11 +3548,137 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: impShockRight0001
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 655
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78b6392a39041ec0800000000000000
+      internalID: -3597240056957978500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockRight0002
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 655
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df75a89cf07e3e3a0800000000000000
+      internalID: -6637207370822166531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockRight0003
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 655
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc2e9e20ae97c340800000000000000
+      internalID: 4884046731720666300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockRight0004
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 655
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1fef16ac9651250800000000000000
+      internalID: 5914750003569422839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockRight0005
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 655
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a77c98250f3e07d0800000000000000
+      internalID: -2950351414492366944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockRight0006
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 655
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf73b670026b8c80800000000000000
+      internalID: -8319448132505862204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: impShockUp1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 225
+        x: 311
+        y: 655
         width: 30
         height: 40
       alignment: 0
@@ -1433,8 +3698,8 @@ TextureImporter:
       name: impShockUp2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 225
+        x: 342
+        y: 655
         width: 30
         height: 40
       alignment: 0
@@ -1454,8 +3719,8 @@ TextureImporter:
       name: impShockUp3
       rect:
         serializedVersion: 2
-        x: 63
-        y: 225
+        x: 373
+        y: 655
         width: 30
         height: 40
       alignment: 0
@@ -1475,8 +3740,8 @@ TextureImporter:
       name: impShockUp4
       rect:
         serializedVersion: 2
-        x: 94
-        y: 225
+        x: 404
+        y: 655
         width: 30
         height: 40
       alignment: 0
@@ -1496,8 +3761,8 @@ TextureImporter:
       name: impShockUp5
       rect:
         serializedVersion: 2
-        x: 125
-        y: 225
+        x: 435
+        y: 655
         width: 30
         height: 40
       alignment: 0
@@ -1517,8 +3782,8 @@ TextureImporter:
       name: impShockUp6
       rect:
         serializedVersion: 2
-        x: 156
-        y: 225
+        x: 466
+        y: 655
         width: 30
         height: 40
       alignment: 0
@@ -1538,8 +3803,8 @@ TextureImporter:
       name: impSpawn1
       rect:
         serializedVersion: 2
-        x: 187
-        y: 225
+        x: 1
+        y: 614
         width: 30
         height: 40
       alignment: 0
@@ -1559,8 +3824,8 @@ TextureImporter:
       name: impSpawn2
       rect:
         serializedVersion: 2
-        x: 218
-        y: 225
+        x: 32
+        y: 614
         width: 30
         height: 40
       alignment: 0
@@ -1580,8 +3845,8 @@ TextureImporter:
       name: impSpawn3
       rect:
         serializedVersion: 2
-        x: 1
-        y: 184
+        x: 63
+        y: 614
         width: 30
         height: 40
       alignment: 0
@@ -1601,8 +3866,8 @@ TextureImporter:
       name: impSpawn4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 184
+        x: 94
+        y: 614
         width: 30
         height: 40
       alignment: 0
@@ -1622,8 +3887,8 @@ TextureImporter:
       name: impSpawn5
       rect:
         serializedVersion: 2
-        x: 63
-        y: 184
+        x: 125
+        y: 614
         width: 30
         height: 40
       alignment: 0
@@ -1643,8 +3908,8 @@ TextureImporter:
       name: impSpawn6
       rect:
         serializedVersion: 2
-        x: 94
-        y: 184
+        x: 156
+        y: 614
         width: 30
         height: 40
       alignment: 0
@@ -1664,8 +3929,8 @@ TextureImporter:
       name: impSpawn7
       rect:
         serializedVersion: 2
-        x: 125
-        y: 184
+        x: 187
+        y: 614
         width: 30
         height: 40
       alignment: 0
@@ -1685,8 +3950,8 @@ TextureImporter:
       name: impSpawn8
       rect:
         serializedVersion: 2
-        x: 156
-        y: 184
+        x: 218
+        y: 614
         width: 30
         height: 40
       alignment: 0
@@ -1706,8 +3971,8 @@ TextureImporter:
       name: impSpawn9
       rect:
         serializedVersion: 2
-        x: 187
-        y: 184
+        x: 249
+        y: 614
         width: 30
         height: 40
       alignment: 0
@@ -1727,8 +3992,8 @@ TextureImporter:
       name: impSpawn10
       rect:
         serializedVersion: 2
-        x: 218
-        y: 184
+        x: 280
+        y: 614
         width: 30
         height: 40
       alignment: 0
@@ -1748,8 +4013,8 @@ TextureImporter:
       name: impSpawn11
       rect:
         serializedVersion: 2
-        x: 1
-        y: 143
+        x: 311
+        y: 614
         width: 30
         height: 40
       alignment: 0
@@ -1769,8 +4034,8 @@ TextureImporter:
       name: impSpawn12
       rect:
         serializedVersion: 2
-        x: 32
-        y: 143
+        x: 342
+        y: 614
         width: 30
         height: 40
       alignment: 0
@@ -1787,11 +4052,95 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: impStandDiagBack
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 614
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2bb3796343b36c0800000000000000
+      internalID: -4162676021503741207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impStandDiagBackRight
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 614
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce2aff5268818c20800000000000000
+      internalID: 3206994365762907853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impStandDiagFront
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 614
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f290d71ab3f4a0d20800000000000000
+      internalID: 3245493599004854575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impStandDiagFrontRight
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 614
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcd4d7851c365610800000000000000
+      internalID: 1609539980002385116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: impStandDown1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 143
+        x: 1
+        y: 573
         width: 30
         height: 40
       alignment: 0
@@ -1811,8 +4160,8 @@ TextureImporter:
       name: impStandLeft
       rect:
         serializedVersion: 2
-        x: 94
-        y: 143
+        x: 32
+        y: 573
         width: 30
         height: 40
       alignment: 0
@@ -1829,11 +4178,32 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: impStandRight
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 573
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44f4d08f13c8bc10800000000000000
+      internalID: 2069618568849585226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: impStandUp1
       rect:
         serializedVersion: 2
-        x: 125
-        y: 143
+        x: 94
+        y: 573
         width: 30
         height: 40
       alignment: 0
@@ -1853,8 +4223,8 @@ TextureImporter:
       name: impVictory1
       rect:
         serializedVersion: 2
-        x: 156
-        y: 143
+        x: 125
+        y: 573
         width: 30
         height: 40
       alignment: 0
@@ -1874,8 +4244,8 @@ TextureImporter:
       name: impVictory2
       rect:
         serializedVersion: 2
-        x: 187
-        y: 143
+        x: 156
+        y: 573
         width: 30
         height: 40
       alignment: 0
@@ -1895,8 +4265,8 @@ TextureImporter:
       name: impVictory3
       rect:
         serializedVersion: 2
-        x: 218
-        y: 143
+        x: 187
+        y: 573
         width: 30
         height: 40
       alignment: 0
@@ -1916,8 +4286,8 @@ TextureImporter:
       name: impVictory4
       rect:
         serializedVersion: 2
-        x: 1
-        y: 102
+        x: 218
+        y: 573
         width: 30
         height: 40
       alignment: 0
@@ -1937,8 +4307,8 @@ TextureImporter:
       name: impVictory5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 102
+        x: 249
+        y: 573
         width: 30
         height: 40
       alignment: 0
@@ -1958,8 +4328,8 @@ TextureImporter:
       name: impVictory6
       rect:
         serializedVersion: 2
-        x: 63
-        y: 102
+        x: 280
+        y: 573
         width: 30
         height: 40
       alignment: 0
@@ -1976,11 +4346,515 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: impWalkDown1
+      name: impWalkDiagBack1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 573
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a525b3a560c17fdc0800000000000000
+      internalID: -3605382163077574054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagBack2
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 573
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519c2dd65ae336c90800000000000000
+      internalID: -7177824500865382123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagBack3
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 573
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fd93564b9fb8a00800000000000000
+      internalID: 759975515329781529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagBack4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 573
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1d3e5ec68f004f0800000000000000
+      internalID: -864417981858065949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagBack5
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 573
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcc3855a13f1b7b0800000000000000
+      internalID: -5210115999461552971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagBack6
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 573
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d88499c06818690800000000000000
+      internalID: -7601647307355288244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagBackRight0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10cad111b2726d710800000000000000
+      internalID: 1717603373812657153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagBackRight0002
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3be1412ed6714620800000000000000
+      internalID: 2756615143340239675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagBackRight0003
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9125a0c83941616f0800000000000000
+      internalID: -714360866949410279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagBackRight0004
       rect:
         serializedVersion: 2
         x: 94
-        y: 102
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf46181111ab4790800000000000000
+      internalID: -7544759655938502729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagBackRight0005
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611b4ea57be1c0750800000000000000
+      internalID: 6272422153873043734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagBackRight0006
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153df2c97aeaf0c70800000000000000
+      internalID: 8939555820256875345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagFront1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deeb78cac961ce130800000000000000
+      internalID: 3597275064527470317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagFront2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efad2612e1a9be50800000000000000
+      internalID: 6825664702663471080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagFront3
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d421917ebe2f300800000000000000
+      internalID: 284549104268365202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagFront4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49319185c5934b30800000000000000
+      internalID: 4270421547192236367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagFront5
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acbb9bbc435a44a0800000000000000
+      internalID: -6608377914182615898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagFront6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866e757777a2fa150800000000000000
+      internalID: 5885969930588251752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagFrontRight0001
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be879774bf539e30800000000000000
+      internalID: 4509052880633171638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagFrontRight0002
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d6e010677ff7140800000000000000
+      internalID: 4719763020703493382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagFrontRight0003
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2857d0ebaa0829840800000000000000
+      internalID: 5229383588151915906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagFrontRight0004
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 532
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea3fb313c2c71b70800000000000000
+      internalID: 8869772134235192045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagFrontRight0005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 491
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d46be1e36f980220800000000000000
+      internalID: 2452385248444114133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDiagFrontRight0006
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 491
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebca789c26fdded90800000000000000
+      internalID: -7066746624893539138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDown1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 491
         width: 30
         height: 40
       alignment: 0
@@ -2000,8 +4874,8 @@ TextureImporter:
       name: impWalkDown2
       rect:
         serializedVersion: 2
-        x: 125
-        y: 102
+        x: 94
+        y: 491
         width: 30
         height: 40
       alignment: 0
@@ -2021,8 +4895,8 @@ TextureImporter:
       name: impWalkDown3
       rect:
         serializedVersion: 2
-        x: 156
-        y: 102
+        x: 125
+        y: 491
         width: 30
         height: 40
       alignment: 0
@@ -2042,8 +4916,8 @@ TextureImporter:
       name: impWalkDown4
       rect:
         serializedVersion: 2
-        x: 187
-        y: 102
+        x: 156
+        y: 491
         width: 30
         height: 40
       alignment: 0
@@ -2063,8 +4937,8 @@ TextureImporter:
       name: impWalkDown5
       rect:
         serializedVersion: 2
-        x: 218
-        y: 102
+        x: 187
+        y: 491
         width: 30
         height: 40
       alignment: 0
@@ -2084,8 +4958,8 @@ TextureImporter:
       name: impWalkDown6
       rect:
         serializedVersion: 2
-        x: 1
-        y: 61
+        x: 218
+        y: 491
         width: 30
         height: 40
       alignment: 0
@@ -2105,8 +4979,8 @@ TextureImporter:
       name: impWalkLeft1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 61
+        x: 249
+        y: 491
         width: 30
         height: 40
       alignment: 0
@@ -2126,8 +5000,8 @@ TextureImporter:
       name: impWalkLeft2
       rect:
         serializedVersion: 2
-        x: 63
-        y: 61
+        x: 280
+        y: 491
         width: 30
         height: 40
       alignment: 0
@@ -2147,8 +5021,8 @@ TextureImporter:
       name: impWalkLeft3
       rect:
         serializedVersion: 2
-        x: 94
-        y: 61
+        x: 311
+        y: 491
         width: 30
         height: 40
       alignment: 0
@@ -2168,8 +5042,8 @@ TextureImporter:
       name: impWalkLeft4
       rect:
         serializedVersion: 2
-        x: 125
-        y: 61
+        x: 342
+        y: 491
         width: 30
         height: 40
       alignment: 0
@@ -2189,8 +5063,8 @@ TextureImporter:
       name: impWalkLeft5
       rect:
         serializedVersion: 2
-        x: 156
-        y: 61
+        x: 373
+        y: 491
         width: 30
         height: 40
       alignment: 0
@@ -2210,8 +5084,8 @@ TextureImporter:
       name: impWalkLeft6
       rect:
         serializedVersion: 2
-        x: 187
-        y: 61
+        x: 404
+        y: 491
         width: 30
         height: 40
       alignment: 0
@@ -2228,11 +5102,137 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: impWalkRight0001
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 491
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678cc6911b2325ee0800000000000000
+      internalID: -1273900008375269258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkRight0002
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 491
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a99802850f755b0800000000000000
+      internalID: -5379566968577090961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkRight0003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 450
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a77e51a0211b38e0800000000000000
+      internalID: -1712756401440393310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkRight0004
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 450
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf8c151568365a90800000000000000
+      internalID: -7325605737074487333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkRight0005
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 450
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fcb8792d68e5a2f0800000000000000
+      internalID: -962107389828875015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkRight0006
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 450
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e106ad9df4ed3c0800000000000000
+      internalID: -4332937994393608565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: impWalkUp1
       rect:
         serializedVersion: 2
-        x: 218
-        y: 61
+        x: 125
+        y: 450
         width: 30
         height: 40
       alignment: 0
@@ -2252,8 +5252,8 @@ TextureImporter:
       name: impWalkUp2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 20
+        x: 156
+        y: 450
         width: 30
         height: 40
       alignment: 0
@@ -2273,8 +5273,8 @@ TextureImporter:
       name: impWalkUp3
       rect:
         serializedVersion: 2
-        x: 32
-        y: 20
+        x: 187
+        y: 450
         width: 30
         height: 40
       alignment: 0
@@ -2294,8 +5294,8 @@ TextureImporter:
       name: impWalkUp4
       rect:
         serializedVersion: 2
-        x: 63
-        y: 20
+        x: 218
+        y: 450
         width: 30
         height: 40
       alignment: 0
@@ -2315,8 +5315,8 @@ TextureImporter:
       name: impWalkUp5
       rect:
         serializedVersion: 2
-        x: 94
-        y: 20
+        x: 249
+        y: 450
         width: 30
         height: 40
       alignment: 0
@@ -2336,8 +5336,8 @@ TextureImporter:
       name: impWalkUp6
       rect:
         serializedVersion: 2
-        x: 125
-        y: 20
+        x: 280
+        y: 450
         width: 30
         height: 40
       alignment: 0
