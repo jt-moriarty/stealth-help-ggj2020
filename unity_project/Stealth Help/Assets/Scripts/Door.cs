@@ -70,16 +70,16 @@ public class Door : MonoBehaviour
     public IEnumerator OpenLight (float tweenTime) {
         float startTime = Time.time;
         while (Time.time - startTime < tweenTime) {
-            if (player.CheckSeenByLight(openLight)) {
-                gameController.GameOver(false);
-            }
-
             float t = (Time.time - startTime) / tweenTime;
             openLight.transform.localRotation = Quaternion.Slerp(Quaternion.Euler(0, 0, -125), Quaternion.Euler(0,0,-180), t);
             openLight.pointLightInnerRadius = Mathf.Lerp(0f, 5f, t);
             openLight.pointLightOuterRadius = openLight.pointLightInnerRadius + Mathf.Lerp(0f, 5f, t);
             openLight.pointLightInnerAngle = Mathf.Lerp(0f, 127f, t);
             openLight.pointLightOuterAngle = openLight.pointLightInnerAngle + 14f;
+
+            if (player.CheckSeenByLight(openLight)) {
+                gameController.GameOver(false);
+            }
             yield return null;
         }
     }
@@ -87,9 +87,6 @@ public class Door : MonoBehaviour
     public IEnumerator CloseLight (float tweenTime) {
         float startTime = Time.time;
         while (Time.time - startTime < tweenTime) {
-            if (player.CheckSeenByLight(openLight)) {
-                gameController.GameOver(false);
-            }
 
             float t = (Time.time - startTime) / tweenTime;
             openLight.transform.localRotation = Quaternion.Slerp(Quaternion.Euler(0, 0, -180), Quaternion.Euler(0, 0, -125), t);
@@ -97,6 +94,10 @@ public class Door : MonoBehaviour
             openLight.pointLightOuterRadius = openLight.pointLightInnerRadius + Mathf.Lerp(5f, 0f, t);
             openLight.pointLightInnerAngle = Mathf.Lerp(127f, 0f, t);
             openLight.pointLightOuterAngle = openLight.pointLightInnerAngle + 14f;
+
+            if (player.CheckSeenByLight(openLight)) {
+                gameController.GameOver(false);
+            }
             yield return null;
         }
     }

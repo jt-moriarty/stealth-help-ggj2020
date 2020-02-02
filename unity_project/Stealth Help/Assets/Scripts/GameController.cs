@@ -53,7 +53,7 @@ public class GameController : MonoBehaviour
 
     public void GameOver (bool win) {
         if (!gameOver) {
-            Debug.Log("GAME OVER");
+            //Debug.Log("GAME OVER");
             gameOver = true;
             player.GameOver();
             uiController.ShowEventMessage(win ? "You Win!" : "Game Over!");
@@ -94,7 +94,6 @@ public class GameController : MonoBehaviour
                 nextDoor = Random.Range(0, doors.Length);
                 nextDoorOpenTime = Random.Range(5f, 10f);
             }
-
 
             //Debug.Log("Current: " + (Time.time - lastDoorOpenTime) + " nextDoorOpen: " + nextDoorOpenTime);
             if (nextDoor != currentDoor && !doors[nextDoor].doorLit) {

@@ -128,29 +128,44 @@ public class PlayerController : MonoBehaviour
                 closestHit = seenHits[i];
             }
         }
+        
+        Vector2 lightForward = Vector2.zero;
+        lightForward.x = light.transform.up.x;
+        lightForward.y = light.transform.up.y;
+
+        Vector2 parentForward = Vector2.zero;
+        parentForward.x = light.transform.parent.up.x;
+        parentForward.y = light.transform.parent.up.y;
+        parentForward = -parentForward;
+
+        // destination - source
+        Vector2 playerDirection = -(castDestination - castOrigin);
+
+        Debug.DrawRay(light.transform.position, lightForward, Color.cyan);//, 10f);
+        Debug.DrawRay(light.transform.position, playerDirection, Color.cyan);//, 10f);
+        Debug.DrawRay(light.transform.position, parentForward, Color.red);//, 10f);
 
         // Last check if the angle frees us
         //TODO: add angle checking.
-        /*if (seen) {
-            //Vector2 castDirection = ;
-            Vector2 forward = Vector2.zero;
-            forward.x = light.transform.forward.x;
-            forward.y = light.transform.forward.y;
+        if (seen) {
 
-            Debug.Log("ANGLE " + Vector2.Angle(closestHit.normal, forward));
-            //Debug.Log("TARGET " + (light.pointLightOuterAngle / 2f));
-            if (Vector2.Angle(closestHit.normal, forward) < (light.pointLightOuterAngle / 2f)) {
+            Debug.Log("ANGLE " + Vector2.Angle(playerDirection, lightForward));
+            Debug.Log("FORWARD ANGLE " + Vector2.Angle(playerDirection, parentForward));
+            Debug.Log("TARGET " + (light.pointLightOuterAngle / 2f));
+
+            UnityEditor.EditorApplication.isPaused = true;
+            if (Vector2.Angle(playerDirection, lightForward) < (light.pointLightOuterAngle / 2f)) {
                 seen = false;
                 //Debug.Log("ESCAPED");
             }
-        }*/
+        }
 
-        if (seen) {
+        /*if (seen) {
             Debug.DrawLine(castOrigin, castDestination, Color.red, 1f);
         }
         else if (numHits > 0 && closestDistance != light.pointLightOuterRadius) {
             Debug.DrawLine(castOrigin, closestHit.point, Color.green, 1f);
-        }
+        }*/
         return seen;
     }
 }
