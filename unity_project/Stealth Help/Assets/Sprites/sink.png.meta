@@ -41,6 +41,15 @@ TextureImporter:
   - first:
       213: 6213412028227568199
     second: sink-waterlvl3-noknobs
+  - first:
+      213: 8007340727935689798
+    second: sink-knobsalone-0
+  - first:
+      213: 6403432945153042994
+    second: sink-knobsalone-1
+  - first:
+      213: 5397660928449563953
+    second: sink-knobsalone-2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -182,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sink-knobsalone-diagonal
+      name: sink-knobsalone-0
       rect:
         serializedVersion: 2
         x: 131
@@ -196,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7f88593270144d60800000000000000
-      internalID: 7873436131324891006
+      spriteID: 644ef14a7f9cf1f60800000000000000
+      internalID: 8007340727935689798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sink-knobsalone-horizontal
+      name: sink-knobsalone-1
       rect:
         serializedVersion: 2
         x: 261
@@ -217,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 764abe28c478a9530800000000000000
-      internalID: 3862548393107367015
+      spriteID: 23a61e636509dd850800000000000000
+      internalID: 6403432945153042994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sink-knobsalone-vertical
+      name: sink-knobsalone-2
       rect:
         serializedVersion: 2
         x: 1
@@ -238,8 +247,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23419df1733e2c6d0800000000000000
-      internalID: -2971562978214079438
+      spriteID: 13dcd32340858ea40800000000000000
+      internalID: 5397660928449563953
       vertices: []
       indices: 
       edges: []

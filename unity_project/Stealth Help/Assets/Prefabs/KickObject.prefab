@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3748621028409224533}
   - component: {fileID: 3748621028409224532}
   - component: {fileID: 3748621028409224534}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: KickObject
   m_TagString: Kick
   m_Icon: {fileID: 0}
@@ -86,6 +86,7 @@ MonoBehaviour:
   coll: {fileID: 3748621028409224533}
   rb: {fileID: 3748621028409224532}
   inPlace: 0
+  type: 0
 --- !u!1 &3748621028636422526
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,7 +97,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3748621028636422527}
   - component: {fileID: 3748621028636422520}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: dungeon_sheet_164
   m_TagString: Untagged
   m_Icon: {fileID: 0}

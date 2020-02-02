@@ -2,9 +2,9 @@
 # Sprite sheet data for Unity.
 #
 # To import these sprites into your Unity project, download "TexturePackerImporter":
-# https://www.codeandweb.com/texturepacker/unity
+# http://www.codeandweb.com/texturepacker/unity
 #
-# $TexturePacker:SmartUpdate:7099e32fe15271efeac713f9b8e3cb40:4283cfdcca3b4883a91773f336640e38:a8fddbd34115b64fc10f833ca86a88ef$
+# $TexturePacker:SmartUpdate:0131e9a295627a95bd4b329f055e27c4:3f4c67c385b3162c6462b8b6ac07c235:a8fddbd34115b64fc10f833ca86a88ef$
 #
 :format=40300
 :texture=sink.png
@@ -13,9 +13,9 @@
 :borders=disabled
 
 sink-empty-noknobs;1;427;129;84; 0.5;0.5; 0;0;0;0
-sink-knobsalone-diagonal;131;427;129;84; 0.5;0.5; 0;0;0;0
-sink-knobsalone-horizontal;261;427;129;84; 0.5;0.5; 0;0;0;0
-sink-knobsalone-vertical;1;342;129;84; 0.5;0.5; 0;0;0;0
+sink-knobsalone-0;131;427;129;84; 0.5;0.5; 0;0;0;0
+sink-knobsalone-1;261;427;129;84; 0.5;0.5; 0;0;0;0
+sink-knobsalone-2;1;342;129;84; 0.5;0.5; 0;0;0;0
 sink-nowater-pourframe1;131;342;129;84; 0.5;0.5; 0;0;0;0
 sink-nowater-pourframe2;261;342;129;84; 0.5;0.5; 0;0;0;0
 sink-nowater-pourframe3;1;257;129;84; 0.5;0.5; 0;0;0;0

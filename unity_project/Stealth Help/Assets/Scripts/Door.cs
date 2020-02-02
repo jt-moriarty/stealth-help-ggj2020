@@ -51,11 +51,35 @@ public class Door : MonoBehaviour
         doorLit = false;
     }
 
+    //START
+    //0,0.275,0
+    //0,0,-125
+    //innerAngle 0
+    //outerAngle 14
+    //innerRadius 5
+    //outerRadius 10
+
+    //END
+    //0,0.275,0
+    //0,0,-180
+    //innerAngle 127
+    //outerAngle 141
+    //innerRadius 5
+    //outerRadius 10
+
     public IEnumerator OpenLight (float tweenTime) {
         float startTime = Time.time;
         while (Time.time - startTime < tweenTime) {
+            if (player.CheckSeenByLight(openLight)) {
+                gameController.GameOver(false);
+            }
+
             float t = (Time.time - startTime) / tweenTime;
-            openLight.transform.localRotation = Quaternion.Slerp(Quaternion.Euler(0, 0, -1), Quaternion.Euler(0,0,-180), t);
+            openLight.transform.localRotation = Quaternion.Slerp(Quaternion.Euler(0, 0, -125), Quaternion.Euler(0,0,-180), t);
+            openLight.pointLightInnerRadius = Mathf.Lerp(0f, 5f, t);
+            openLight.pointLightOuterRadius = openLight.pointLightInnerRadius + Mathf.Lerp(0f, 5f, t);
+            openLight.pointLightInnerAngle = Mathf.Lerp(0f, 127f, t);
+            openLight.pointLightOuterAngle = openLight.pointLightInnerAngle + 14f;
             yield return null;
         }
     }
@@ -63,8 +87,16 @@ public class Door : MonoBehaviour
     public IEnumerator CloseLight (float tweenTime) {
         float startTime = Time.time;
         while (Time.time - startTime < tweenTime) {
+            if (player.CheckSeenByLight(openLight)) {
+                gameController.GameOver(false);
+            }
+
             float t = (Time.time - startTime) / tweenTime;
-            openLight.transform.localRotation = Quaternion.Slerp(Quaternion.Euler(0, 0, -180), Quaternion.Euler(0, 0, -1), t);
+            openLight.transform.localRotation = Quaternion.Slerp(Quaternion.Euler(0, 0, -180), Quaternion.Euler(0, 0, -125), t);
+            openLight.pointLightInnerRadius = Mathf.Lerp(5f, 0f, t);
+            openLight.pointLightOuterRadius = openLight.pointLightInnerRadius + Mathf.Lerp(5f, 0f, t);
+            openLight.pointLightInnerAngle = Mathf.Lerp(127f, 0f, t);
+            openLight.pointLightOuterAngle = openLight.pointLightInnerAngle + 14f;
             yield return null;
         }
     }

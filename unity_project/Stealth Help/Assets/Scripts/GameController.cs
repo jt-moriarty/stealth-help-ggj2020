@@ -13,8 +13,6 @@ public class GameController : MonoBehaviour
     public bool gameOver = false;
     public bool gameInProgress = false;
 
-    public int numLitDoors = 0;
-
     public PlayerController player;
     public GameUIController uiController;
 
@@ -67,11 +65,11 @@ public class GameController : MonoBehaviour
         gameOver = false;
         gameInProgress = true;
         uiController.HideEventMessage();
-        //numLitDoors = 0;
 
         float nextDoorOpenTime = Random.Range(2.5f, 5f);
         float lastDoorOpenTime = Time.time;
         int nextDoor = Random.Range(0, doors.Length);
+        int currentDoor = -1;
         float startTime = Time.time;
         while (!gameOver) {
             float timeRemaining = Mathf.Clamp(gameLength - (Time.time - startTime), 0f, gameLength);
@@ -91,39 +89,23 @@ public class GameController : MonoBehaviour
                 GameOver(false);
             }
             // TODO: base this on partially player activity / noise level instead of movement.
-            // No player movement = less likely.
-            //numLitDoors = 0;
-            /*for (int i = 0; i < doors.Length; i++) {
-                if (doors[i].doorLit) {
-                    numLitDoors++;
-                }
-            }
-            if (Random.Range(0f, 1f) < (0.05f - (numLitDoors * 0.01f))) {
-                nextDoor = Random.Range(0, doors.Length);
-                if (!doors[nextDoor].doorLit) {
-                    StartCoroutine(doors[nextDoor].StartLightUnderDoor(1f));
-                    nextDoorWillOpen = Random.Range(0f, 1f) > 0.5f;
-                }
-                Debug.Log("DO LIGHT UNDER DOOR " + nextDoor);
-            }
-            if (numLitDoors > 0) {
 
-            }*/
-            //Debug.Log("Current: " + (Time.time - lastDoorOpenTime) + " nextDoorOpen: " + nextDoorOpenTime);
-            if (Time.time - lastDoorOpenTime > nextDoorOpenTime) {
-                bool fake = Random.Range(0f, 1f) > 0.75f;
-                Debug.Log("NEXT DOOR IS " + nextDoor + " FAKE? " + fake);
-                //underLightStartTime, fake, delayBeforeOpen, toOpenTime, stayOpenTime, toCloseTime, endUnderLightDelay, underLightEndTime
-                StartCoroutine(doors[nextDoor].OpenSequence(1f, fake, Random.Range(5f, 10f), 1f, 1f, 1f, 1f, 1f));
-                int currentDoor = nextDoor;
-                while (nextDoor == currentDoor || doors[nextDoor].doorLit) {
-                    Debug.Log("REASSIGN");
-                    nextDoor = Random.Range(0, doors.Length);
-                    yield return null;
-                }
-                Debug.Log("PAST LOOP");
+            if (nextDoor == currentDoor || doors[nextDoor].doorLit) {
+                nextDoor = Random.Range(0, doors.Length);
                 nextDoorOpenTime = Random.Range(5f, 10f);
-                lastDoorOpenTime = Time.time;
+            }
+
+
+            //Debug.Log("Current: " + (Time.time - lastDoorOpenTime) + " nextDoorOpen: " + nextDoorOpenTime);
+            if (nextDoor != currentDoor && !doors[nextDoor].doorLit) {
+                if (Time.time - lastDoorOpenTime > nextDoorOpenTime) {
+                    bool fake = Random.Range(0f, 1f) > 0.75f;
+                    Debug.Log("NEXT DOOR IS " + nextDoor + " FAKE? " + fake);
+                    //underLightStartTime, fake, delayBeforeOpen, toOpenTime, stayOpenTime, toCloseTime, endUnderLightDelay, underLightEndTime
+                    StartCoroutine(doors[nextDoor].OpenSequence(1f, fake, Random.Range(5f, 10f), 0.5f, 2f, 0.5f, 1f, 1f));
+                    currentDoor = nextDoor;
+                    lastDoorOpenTime = Time.time;
+                }
             }
 
             yield return null;

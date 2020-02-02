@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: 6016927796680398276
     second: trashcan-fullpartial
+  - first:
+      213: -1986636914909277485
+    second: trashcan_0
+  - first:
+      213: -5251038005742033881
+    second: trashcan_1
+  - first:
+      213: -3366243073368962548
+    second: trashcan_2
+  - first:
+      213: -4855326338245469395
+    second: trashcan_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -134,7 +146,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: trashcan-closed
+      name: trashcan_0
       rect:
         serializedVersion: 2
         x: 1
@@ -148,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7edca983d2a424e20800000000000000
-      internalID: 3333308232291241447
+      spriteID: 3d29725604c0e64e0800000000000000
+      internalID: -1986636914909277485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trashcan-empty
+      name: trashcan_1
       rect:
         serializedVersion: 2
         x: 68
@@ -169,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb16cfb3e0327b360800000000000000
-      internalID: 7185250274535825851
+      spriteID: 724aba541c09027b0800000000000000
+      internalID: -5251038005742033881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trashcan-fullfull
+      name: trashcan_2
       rect:
         serializedVersion: 2
         x: 135
@@ -190,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf15e9fd190aed540800000000000000
-      internalID: 5034637981829190140
+      spriteID: c0a493882c3b841d0800000000000000
+      internalID: -3366243073368962548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trashcan-fullpartial
+      name: trashcan_3
       rect:
         serializedVersion: 2
         x: 1
@@ -211,8 +223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c51f48b3fb608350800000000000000
-      internalID: 6016927796680398276
+      spriteID: d2bd7448b6a6e9cb0800000000000000
+      internalID: -4855326338245469395
       vertices: []
       indices: 
       edges: []

@@ -91,6 +91,8 @@ public class PlayerController : MonoBehaviour
         rb.velocity = Vector2.zero;
     }
 
+    private string[] seenLayerNames = new string[] { "Default" };
+
     public bool CheckSeenByLight (Light2D light) {
         seenHits.Clear();
         Vector2 castOrigin = new Vector2(transform.position.x, transform.position.y) + coll.offset;
@@ -100,12 +102,12 @@ public class PlayerController : MonoBehaviour
         contactFilter2D.NoFilter();
         contactFilter2D.useTriggers = false;
 
-        int layerMask = ~LayerMask.GetMask("Bounds");
+        int layerMask = LayerMask.GetMask(seenLayerNames);//~LayerMask.GetMask("Bounds");
         contactFilter2D.SetLayerMask(layerMask);
         int numHits = Physics2D.CircleCast(castOrigin, castRadius, castDestination - castOrigin, contactFilter2D, seenHits, light.pointLightOuterRadius);
         bool seen = false;
         float closestDistance = light.pointLightOuterRadius;
-        Collider2D closestCollider = null;
+        RaycastHit2D closestHit = new RaycastHit2D();
         for (int i = 0; i < numHits; i++) {
             //If the door is in our hit list AND 
             //there's no obstacle closer AND 
@@ -118,18 +120,36 @@ public class PlayerController : MonoBehaviour
             else if (seenHits[i].collider.gameObject.CompareTag("Door") && seenHits[i].distance < closestDistance) {
                 seen = true;
                 closestDistance = seenHits[i].distance;
+                closestHit = seenHits[i];
             }
             else if (seenHits[i].distance < closestDistance) {
                 seen = false;
                 closestDistance = seenHits[i].distance;
-                closestCollider = seenHits[i].collider;
+                closestHit = seenHits[i];
             }
         }
+
+        // Last check if the angle frees us
+        //TODO: add angle checking.
+        /*if (seen) {
+            //Vector2 castDirection = ;
+            Vector2 forward = Vector2.zero;
+            forward.x = light.transform.forward.x;
+            forward.y = light.transform.forward.y;
+
+            Debug.Log("ANGLE " + Vector2.Angle(closestHit.normal, forward));
+            //Debug.Log("TARGET " + (light.pointLightOuterAngle / 2f));
+            if (Vector2.Angle(closestHit.normal, forward) < (light.pointLightOuterAngle / 2f)) {
+                seen = false;
+                //Debug.Log("ESCAPED");
+            }
+        }*/
+
         if (seen) {
             Debug.DrawLine(castOrigin, castDestination, Color.red, 1f);
         }
-        else if (closestCollider != null) {
-            Debug.DrawLine(castOrigin, closestCollider.gameObject.transform.position, Color.green, 1f);
+        else if (numHits > 0 && closestDistance != light.pointLightOuterRadius) {
+            Debug.DrawLine(castOrigin, closestHit.point, Color.green, 1f);
         }
         return seen;
     }
