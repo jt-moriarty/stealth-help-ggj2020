@@ -36,8 +36,10 @@ public class PlayerController : MonoBehaviour
     }
 
     void Animate() {
-        animator.SetFloat("Horizontal", movementDirection.x);
-        animator.SetFloat("Vertical", movementDirection.y);
+        if (movementDirection != Vector2.zero) {
+            animator.SetFloat("Horizontal", movementDirection.x);
+            animator.SetFloat("Vertical", movementDirection.y);
+        }
         animator.SetFloat("Speed", movementSpeed);
     }
 
@@ -50,11 +52,11 @@ public class PlayerController : MonoBehaviour
         }
 
         if (Input.GetButtonDown("Grab") && held == null) {
-            Debug.Log("Try Grab!");
+            //Debug.Log("Try Grab!");
             PickupObject();
         }
         else if (Input.GetButtonUp("Grab") && held != null) {
-            Debug.Log("Try Release!");
+            //Debug.Log("Try Release!");
             DropObject();
         }
     }
@@ -65,7 +67,7 @@ public class PlayerController : MonoBehaviour
         int layerMask = ~LayerMask.GetMask("Player");
 
         //Vector2 origin, float radius, Vector2 direction, float distance = Mathf.Infinity, int layerMask = DefaultRaycastLayers
-        RaycastHit2D hit = Physics2D.CircleCast(castOrigin, coll.radius + GRAB_RANGE, Vector2.zero, 0f, layerMask);//Physics2D.Raycast(castOrigin, castDirection, GRAB_RANGE, layerMask);
+        RaycastHit2D hit = Physics2D.CircleCast(castOrigin, coll.radius, facingDirection, GRAB_RANGE, layerMask);//Physics2D.Raycast(castOrigin, castDirection, GRAB_RANGE, layerMask);
         //Debug.DrawRay(castOrigin, castDirection, Color.blue, 2f);
 
         if (hit && hit.collider != null) {
@@ -75,6 +77,7 @@ public class PlayerController : MonoBehaviour
             held = hit.collider.GetComponent<KickObject>();
             originalHeldParent = held.transform.parent;
             held.transform.SetParent(transform);
+            held.rb.velocity = Vector2.zero;
             held.rb.isKinematic = true;
             held.coll.enabled = false;
         }
@@ -84,6 +87,7 @@ public class PlayerController : MonoBehaviour
         if (held != null) {
             held.transform.SetParent(originalHeldParent);
             held.rb.isKinematic = false;
+            held.rb.velocity = Vector2.zero;
             held.coll.enabled = true;
         }
         held = null;
@@ -94,9 +98,10 @@ public class PlayerController : MonoBehaviour
         rb.velocity = movementDirection * movementSpeed * MOVEMENT_BASE_SPEED;
     }
 
-    public void GameOver () {
+    public void GameOver (bool win) {
         enabled = false;
         rb.velocity = Vector2.zero;
+        animator.SetTrigger(win ? "Victory" : "Death");
     }
 
     private string[] seenLayerNames = new string[] { "Default" };
@@ -114,7 +119,7 @@ public class PlayerController : MonoBehaviour
         contactFilter2D.SetLayerMask(layerMask);
         int numHits = Physics2D.CircleCast(castOrigin, castRadius, castDestination - castOrigin, contactFilter2D, seenHits, light.pointLightOuterRadius);
         bool seen = false;
-        float closestDistance = light.pointLightOuterRadius;
+        float closestDistance = light.pointLightOuterRadius - 0.75f;
         RaycastHit2D closestHit = new RaycastHit2D();
         for (int i = 0; i < numHits; i++) {
             //If the door is in our hit list AND 

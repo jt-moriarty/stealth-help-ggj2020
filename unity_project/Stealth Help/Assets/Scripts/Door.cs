@@ -72,8 +72,8 @@ public class Door : MonoBehaviour
         while (Time.time - startTime < tweenTime) {
             float t = (Time.time - startTime) / tweenTime;
             openLight.transform.localRotation = Quaternion.Slerp(Quaternion.Euler(0, 0, -125), Quaternion.Euler(0,0,-180), t);
-            openLight.pointLightInnerRadius = Mathf.Lerp(0f, 5f, t);
-            openLight.pointLightOuterRadius = openLight.pointLightInnerRadius + Mathf.Lerp(0f, 5f, t);
+            openLight.pointLightInnerRadius = Mathf.Lerp(0f, 7.5f, t);
+            openLight.pointLightOuterRadius = openLight.pointLightInnerRadius + Mathf.Lerp(0f, 2.5f, t);
             openLight.pointLightInnerAngle = Mathf.Lerp(0f, 127f, t);
             openLight.pointLightOuterAngle = openLight.pointLightInnerAngle + 14f;
 
@@ -90,8 +90,8 @@ public class Door : MonoBehaviour
 
             float t = (Time.time - startTime) / tweenTime;
             openLight.transform.localRotation = Quaternion.Slerp(Quaternion.Euler(0, 0, -180), Quaternion.Euler(0, 0, -125), t);
-            openLight.pointLightInnerRadius = Mathf.Lerp(5f, 0f, t);
-            openLight.pointLightOuterRadius = openLight.pointLightInnerRadius + Mathf.Lerp(5f, 0f, t);
+            openLight.pointLightInnerRadius = Mathf.Lerp(7.5f, 0f, t);
+            openLight.pointLightOuterRadius = openLight.pointLightInnerRadius + Mathf.Lerp(2.5f, 0f, t);
             openLight.pointLightInnerAngle = Mathf.Lerp(127f, 0f, t);
             openLight.pointLightOuterAngle = openLight.pointLightInnerAngle + 14f;
 

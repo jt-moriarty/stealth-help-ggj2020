@@ -96,52 +96,52 @@ PrefabInstance:
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_InstanceId
-      value: -80886
+      value: -19322
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[3].x
-      value: -0.87050074
+      value: -0.84807366
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePathHash
-      value: -1615181003
+      value: 1514516047
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[3].y
-      value: 1.4476578
+      value: 0.90940875
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[0].y
-      value: 0.016820282
+      value: 0.011213541
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[0].x
-      value: -0.8761074
+      value: -0.8480736
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[2].x
-      value: 0.88732094
+      value: 0.859287
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[2].y
-      value: 1.4308374
+      value: 0.903802
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[1].x
-      value: 0.87050074
+      value: 0.85368055
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[1].y
-      value: 0.0056067407
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 621e5a29c41970943b3381eeb2a44048, type: 3}

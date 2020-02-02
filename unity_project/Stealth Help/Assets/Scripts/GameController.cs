@@ -46,8 +46,12 @@ public class GameController : MonoBehaviour
         if (!gameOver) {
             //Debug.Log("GAME OVER");
             gameOver = true;
-            player.GameOver();
+            player.GameOver(win);
             uiController.ShowEventMessage(win ? System.Text.RegularExpressions.Regex.Unescape("You Win!\nPress R to Restart\n or Q to Quit") : System.Text.RegularExpressions.Regex.Unescape("Game Over!\nPress R to Restart\n or Q to Quit"));
+            StopAllCoroutines();
+            /*for (int i = 0; i < doors.Length; i++) {
+                doors[i].StopAllCoroutines();
+            }*/
         }
     }
 
@@ -66,12 +70,22 @@ public class GameController : MonoBehaviour
             float timeRemaining = Mathf.Clamp(gameLength - (Time.time - startTime), 0f, gameLength);
             uiController.TimerText(timeRemaining);
             bool gameWin = true;
+            int remainingPushPull = 0;
             for (int i = 0; i < pushPullObjects.Length; i++) {
-                if (!pushPullObjects[i].inPlace) gameWin = false;
+                if (!pushPullObjects[i].inPlace) {
+                    gameWin = false;
+                    remainingPushPull++;
+                }
             }
+            int remainingKick = 0;
             for (int i = 0; i < kickObjects.Length; i++) {
-                if (!kickObjects[i].inPlace) gameWin = false;
+                if (!kickObjects[i].inPlace) {
+                    gameWin = false;
+                    remainingKick++;
+                }
             }
+
+            Debug.Log("remainingPushPull " + remainingPushPull + " remainingKick " + remainingKick);
 
             if (gameWin) {
                 GameOver(true);
@@ -92,7 +106,7 @@ public class GameController : MonoBehaviour
                     bool fake = Random.Range(0f, 1f) > 0.75f;
                     Debug.Log("NEXT DOOR IS " + nextDoor + " FAKE? " + fake);
                     //underLightStartTime, fake, delayBeforeOpen, toOpenTime, stayOpenTime, toCloseTime, endUnderLightDelay, underLightEndTime
-                    StartCoroutine(doors[nextDoor].OpenSequence(1f, fake, Random.Range(5f, 10f), 0.5f, 2f, 0.5f, 1f, 1f));
+                    StartCoroutine(doors[nextDoor].OpenSequence(1f, fake, Random.Range(3.5f, 7f), 0.5f, 2f, 0.5f, 1f, 1f));
                     currentDoor = nextDoor;
                     lastDoorOpenTime = Time.time;
                 }

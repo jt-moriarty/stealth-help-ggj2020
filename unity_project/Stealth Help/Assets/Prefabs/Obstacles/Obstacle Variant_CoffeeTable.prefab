@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 2403289142595534224, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_Name
-      value: Obstacle Variant
+      value: Obstacle Variant_CoffeeTable
       objectReference: {fileID: 0}
     - target: {fileID: 2403289142595534225, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
@@ -91,7 +91,7 @@ PrefabInstance:
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.size
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
@@ -101,7 +101,7 @@ PrefabInstance:
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_InstanceId
-      value: -66580
+      value: -14198
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
@@ -116,37 +116,37 @@ PrefabInstance:
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePathHash
-      value: -2088584603
+      value: -1839488294
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[3].y
-      value: 1.2494613
+      value: 1.0061291
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[3].x
-      value: 0.95437115
+      value: -1.1977034
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[4].x
-      value: -1.0496285
+      value: -1.2265733
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[4].y
-      value: 1.2433721
+      value: 1.1793487
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[2].x
-      value: 1.2269723
+      value: 1.2022268
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[2].y
-      value: 1.1897565
+      value: 1.004164
       objectReference: {fileID: 0}
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
@@ -166,7 +166,7 @@ PrefabInstance:
     - target: {fileID: 5572328249049982735, guid: 621e5a29c41970943b3381eeb2a44048,
         type: 3}
       propertyPath: m_ShapePath.Array.data[1].y
-      value: 0.02062136
+      value: 0.008248508
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 621e5a29c41970943b3381eeb2a44048, type: 3}
