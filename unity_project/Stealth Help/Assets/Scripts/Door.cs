@@ -32,13 +32,13 @@ public class Door : MonoBehaviour
     }
 
     public IEnumerator StartLightUnderDoor (float tweenTime) {
+        doorLit = true;
         float startTime = Time.time;
         while (Time.time - startTime < tweenTime) {
             float t = (Time.time - startTime) / tweenTime;
             closedLight.intensity = Mathf.Lerp(0f, 1f, t);
             yield return null;
         }
-        doorLit = true;
     }
 
     public IEnumerator EndLightUnderDoor (float tweenTime) {
@@ -80,7 +80,7 @@ public class Door : MonoBehaviour
     }
 
     public IEnumerator OpenSequence (float underLightStartTime, bool fake, float delayBeforeOpen, float toOpenTime, float stayOpenTime, float toCloseTime, float endUnderLightDelay, float underLightEndTime) {
-        yield return StartCoroutine(StartLightUnderDoor(1f)); // start the light under the door
+        yield return StartCoroutine(StartLightUnderDoor(underLightStartTime)); // start the light under the door
         if (!fake) {
             yield return new WaitForSeconds(delayBeforeOpen); // wait a litte bit.
             Open(); // play open door animation.

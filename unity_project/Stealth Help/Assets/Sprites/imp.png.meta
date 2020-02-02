@@ -1,0 +1,2371 @@
+fileFormatVersion: 2
+guid: c94ed05cd5520b641a240092116996b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 684469173477823544
+    second: impPullDown1
+  - first:
+      213: -5315744366492456490
+    second: impPullDown2
+  - first:
+      213: -3749330386137944945
+    second: impPullDown3
+  - first:
+      213: -397531855494541891
+    second: impPullDown4
+  - first:
+      213: -4797935639380089057
+    second: impPullDown5
+  - first:
+      213: -3816542697820986250
+    second: impPullDown6
+  - first:
+      213: -6865921064722019307
+    second: impPullLeft1
+  - first:
+      213: 5498509677901693608
+    second: impPullLeft2
+  - first:
+      213: -893569484657446999
+    second: impPullLeft3
+  - first:
+      213: -8367738833595812526
+    second: impPullLeft4
+  - first:
+      213: 5435751969776725030
+    second: impPullLeft5
+  - first:
+      213: -6538921258025638870
+    second: impPullLeft6
+  - first:
+      213: -3063482165972999902
+    second: impPullUp1
+  - first:
+      213: 5458445372300014190
+    second: impPullUp2
+  - first:
+      213: 317443842043999657
+    second: impPullUp3
+  - first:
+      213: 6467239688671735153
+    second: impPullUp4
+  - first:
+      213: -5268151516960720116
+    second: impPullUp5
+  - first:
+      213: -2451860986591141563
+    second: impPullUp6
+  - first:
+      213: 1928053770061991578
+    second: impPushDown1
+  - first:
+      213: -6184604663076310457
+    second: impPushDown2
+  - first:
+      213: -5435530353521775156
+    second: impPushDown3
+  - first:
+      213: 9188251874684565235
+    second: impPushDown4
+  - first:
+      213: -6629312681287573288
+    second: impPushDown5
+  - first:
+      213: 3360246797048741234
+    second: impPushDown6
+  - first:
+      213: -3308042659721058945
+    second: impPushLeft1
+  - first:
+      213: 8175415403890241996
+    second: impPushLeft2
+  - first:
+      213: -355709724243894705
+    second: impPushLeft3
+  - first:
+      213: 5641895667989258676
+    second: impPushLeft4
+  - first:
+      213: -5245893644083027955
+    second: impPushLeft5
+  - first:
+      213: -8893749099699752893
+    second: impPushLeft6
+  - first:
+      213: 7180083946243436824
+    second: impPushUp1
+  - first:
+      213: -8234255755184559502
+    second: impPushUp2
+  - first:
+      213: -6592741046218715155
+    second: impPushUp3
+  - first:
+      213: -5141250433526966808
+    second: impPushUp4
+  - first:
+      213: 7273692154621812076
+    second: impPushUp5
+  - first:
+      213: 6338133869541338361
+    second: impPushUp6
+  - first:
+      213: -8620485040234616513
+    second: impShockDown1
+  - first:
+      213: 7690922408840042968
+    second: impShockDown2
+  - first:
+      213: 5688234204878072884
+    second: impShockDown3
+  - first:
+      213: -4296327518175567650
+    second: impShockDown4
+  - first:
+      213: 916659042914554527
+    second: impShockDown5
+  - first:
+      213: 2400954391611672488
+    second: impShockDown6
+  - first:
+      213: 3220561369989657778
+    second: impShockLeft1
+  - first:
+      213: -2517449451026136035
+    second: impShockLeft2
+  - first:
+      213: -5267947361049522140
+    second: impShockLeft3
+  - first:
+      213: 4965842107549345047
+    second: impShockLeft4
+  - first:
+      213: -5702514980948901972
+    second: impShockLeft5
+  - first:
+      213: -4647137277060481446
+    second: impShockLeft6
+  - first:
+      213: 3204786942124313679
+    second: impShockUp1
+  - first:
+      213: -8110368935279302777
+    second: impShockUp2
+  - first:
+      213: -370241828046459513
+    second: impShockUp3
+  - first:
+      213: -6819682943351815269
+    second: impShockUp4
+  - first:
+      213: -4611358180565286963
+    second: impShockUp5
+  - first:
+      213: -201973787412898068
+    second: impShockUp6
+  - first:
+      213: -8076058416632035861
+    second: impStandDown1
+  - first:
+      213: 9014233695997588077
+    second: impStandLeft
+  - first:
+      213: 6518528505796256631
+    second: impStandUp1
+  - first:
+      213: 924781714018449577
+    second: impVictory1
+  - first:
+      213: -6087546633376717509
+    second: impVictory2
+  - first:
+      213: 6329924690411532084
+    second: impVictory3
+  - first:
+      213: -652959135132491639
+    second: impVictory4
+  - first:
+      213: 8022243234271810336
+    second: impVictory5
+  - first:
+      213: -3375830218368032310
+    second: impVictory6
+  - first:
+      213: 7949874913305882427
+    second: impWalkDown1
+  - first:
+      213: -6027882631025334181
+    second: impWalkDown2
+  - first:
+      213: -3547420993181909034
+    second: impWalkDown3
+  - first:
+      213: -1147500681300421231
+    second: impWalkDown4
+  - first:
+      213: 2325329986825217026
+    second: impWalkDown5
+  - first:
+      213: -1765617477817597596
+    second: impWalkDown6
+  - first:
+      213: -6750705112504294415
+    second: impWalkLeft1
+  - first:
+      213: -8934918989357251445
+    second: impWalkLeft2
+  - first:
+      213: 8253206994128829757
+    second: impWalkLeft3
+  - first:
+      213: 5403876150077032921
+    second: impWalkLeft4
+  - first:
+      213: 3428723901291232800
+    second: impWalkLeft5
+  - first:
+      213: 5226316160340547813
+    second: impWalkLeft6
+  - first:
+      213: -2925417825879249196
+    second: impWalkUp1
+  - first:
+      213: -7475626764042329970
+    second: impWalkUp2
+  - first:
+      213: -8456095643485716099
+    second: impWalkUp3
+  - first:
+      213: 8558415936809362238
+    second: impWalkUp4
+  - first:
+      213: -1164300365896564662
+    second: impWalkUp5
+  - first:
+      213: -6825769415413364560
+    second: impWalkUp6
+  - first:
+      213: 4958048425466712438
+    second: impSpawn1
+  - first:
+      213: -5002485816398842761
+    second: impSpawn2
+  - first:
+      213: -5151889725052081261
+    second: impSpawn3
+  - first:
+      213: -5526223331425258950
+    second: impSpawn4
+  - first:
+      213: -2497253311597901567
+    second: impSpawn5
+  - first:
+      213: -4172925610582293738
+    second: impSpawn6
+  - first:
+      213: 317271559115878217
+    second: impSpawn7
+  - first:
+      213: -2502764268591343295
+    second: impSpawn8
+  - first:
+      213: -4203484167373862891
+    second: impSpawn9
+  - first:
+      213: -5785861085617510480
+    second: impSpawn10
+  - first:
+      213: -95533480510869058
+    second: impSpawn11
+  - first:
+      213: -3011385159894734057
+    second: impSpawn12
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 72
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: impPullDown1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 471
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834d9d83619bf7900800000000000000
+      internalID: 684469173477823544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDown2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 471
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9ee66a9aeaa36b0800000000000000
+      internalID: -5315744366492456490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDown3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 471
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c6bace0e3b7fbc0800000000000000
+      internalID: -3749330386137944945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDown4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 471
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd885632eeab7af0800000000000000
+      internalID: -397531855494541891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDown5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 471
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17209fd4fe4a6db0800000000000000
+      internalID: -4797935639380089057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullDown6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 471
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674e44223aae80bc0800000000000000
+      internalID: -3816542697820986250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullLeft1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 471
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c4f593b2957b0a0800000000000000
+      internalID: -6865921064722019307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullLeft2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 471
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2c0617b61ae4c40800000000000000
+      internalID: 5498509677901693608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullLeft3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 430
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af2ddcb9476993f0800000000000000
+      internalID: -893569484657446999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullLeft4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 430
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255b7427dd1dfdb80800000000000000
+      internalID: -8367738833595812526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullLeft5
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 430
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cebaddd9baf6b40800000000000000
+      internalID: 5435751969776725030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullLeft6
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 430
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24a121b2c51145a0800000000000000
+      internalID: -6538921258025638870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullUp1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 430
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2216f6973335c75d0800000000000000
+      internalID: -3063482165972999902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullUp2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 430
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6231d1652b40cb40800000000000000
+      internalID: 5458445372300014190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullUp3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 430
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5fa211e79c76400800000000000000
+      internalID: 317443842043999657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullUp4
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 430
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d26906b3040c950800000000000000
+      internalID: 6467239688671735153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullUp5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 389
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bfe907b14c3e6b0800000000000000
+      internalID: -5268151516960720116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPullUp6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 389
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541a8975c6d39fdd0800000000000000
+      internalID: -2451860986591141563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDown1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 389
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ec56840b2d1ca10800000000000000
+      internalID: 1928053770061991578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDown2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 389
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742bc1d83dedb2aa0800000000000000
+      internalID: -6184604663076310457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDown3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 389
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd2b7031fd1194b0800000000000000
+      internalID: -5435530353521775156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDown4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 389
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6f369066a338f70800000000000000
+      internalID: 9188251874684565235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDown5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 389
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0acde6d33fff3a0800000000000000
+      internalID: -6629312681287573288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushDown6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 389
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dfbb798aef1ae20800000000000000
+      internalID: 3360246797048741234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushLeft1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 348
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75ec7d4ab87712d0800000000000000
+      internalID: -3308042659721058945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushLeft2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 348
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc17220aef8e47170800000000000000
+      internalID: 8175415403890241996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushLeft3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 348
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e5a43f3e3401bf0800000000000000
+      internalID: -355709724243894705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushLeft4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 348
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1a05ec73a0c4e40800000000000000
+      internalID: 5641895667989258676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushLeft5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 348
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00a3fe4687d237b0800000000000000
+      internalID: -5245893644083027955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushLeft6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 348
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34032fe905e039480800000000000000
+      internalID: -8893749099699752893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushUp1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 348
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8113351be48c4a360800000000000000
+      internalID: 7180083946243436824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushUp2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 348
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a2282840c0abd80800000000000000
+      internalID: -8234255755184559502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushUp3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 307
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def0ff3c2f0e184a0800000000000000
+      internalID: -6592741046218715155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushUp4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 307
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e55d4068fb96a8b0800000000000000
+      internalID: -5141250433526966808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushUp5
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 307
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d57c91a7851f460800000000000000
+      internalID: 7273692154621812076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impPushUp6
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 307
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc22e86c2395f750800000000000000
+      internalID: 6338133869541338361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDown1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 307
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f392f397782ed5880800000000000000
+      internalID: -8620485040234616513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDown2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 307
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9900ebe25abba60800000000000000
+      internalID: 7690922408840042968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDown3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 307
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cebfc2fdaa0fe40800000000000000
+      internalID: 5688234204878072884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDown4
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 307
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0e86892e06064c0800000000000000
+      internalID: -4296327518175567650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDown5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 266
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f925219fa80a8bc00800000000000000
+      internalID: 916659042914554527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockDown6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 266
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a78de16c47e15120800000000000000
+      internalID: 2400954391611672488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockLeft1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 266
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b43493b08bb1bc20800000000000000
+      internalID: 3220561369989657778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockLeft2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 266
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14c593ff09301dd0800000000000000
+      internalID: -2517449451026136035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockLeft3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 266
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420df2139cd74e6b0800000000000000
+      internalID: -5267947361049522140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockLeft4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 266
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715e72f26173ae440800000000000000
+      internalID: 4965842107549345047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockLeft5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 266
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf723a86d89cd0b0800000000000000
+      internalID: -5702514980948901972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockLeft6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 266
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e7552a44d028fb0800000000000000
+      internalID: -4647137277060481446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockUp1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 225
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c41228eb0b97c20800000000000000
+      internalID: 3204786942124313679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockUp2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 225
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78760578c6e227f80800000000000000
+      internalID: -8110368935279302777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockUp3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 225
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78dac4ed403acdaf0800000000000000
+      internalID: -370241828046459513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockUp4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 225
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9389b8ce7e9b51a0800000000000000
+      internalID: -6819682943351815269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockUp5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 225
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf7053ba2a2100c0800000000000000
+      internalID: -4611358180565286963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impShockUp6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 225
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee505319e1723df0800000000000000
+      internalID: -201973787412898068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impSpawn1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 225
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671d02b26c68ec440800000000000000
+      internalID: 4958048425466712438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impSpawn2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 225
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774fd9f77a9939ab0800000000000000
+      internalID: -5002485816398842761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impSpawn3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 184
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b2948479fc088b0800000000000000
+      internalID: -5151889725052081261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impSpawn4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 184
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32fbe4c829ee43b0800000000000000
+      internalID: -5526223331425258950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impSpawn5
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 184
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1090a081859f75dd0800000000000000
+      internalID: -2497253311597901567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impSpawn6
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 184
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613cc1b244ac616c0800000000000000
+      internalID: -4172925610582293738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impSpawn7
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 184
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94faf625dcc276400800000000000000
+      internalID: 317271559115878217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impSpawn8
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 184
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149921e6825644dd0800000000000000
+      internalID: -2502764268591343295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impSpawn9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 184
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518c3b8bb693aa5c0800000000000000
+      internalID: -4203484167373862891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impSpawn10
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 184
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b723085ffd74bfa0800000000000000
+      internalID: -5785861085617510480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impSpawn11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 143
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb13efd3ec89caef0800000000000000
+      internalID: -95533480510869058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impSpawn12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 143
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b679ee6296536d0800000000000000
+      internalID: -3011385159894734057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impStandDown1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 143
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5085ba8a31cef80800000000000000
+      internalID: -8076058416632035861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impStandLeft
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 143
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62fa4c79cdf81d70800000000000000
+      internalID: 9014233695997588077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impStandUp1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 143
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7736e3ea327767a50800000000000000
+      internalID: 6518528505796256631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impVictory1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 143
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8b8d6b11c75dc00800000000000000
+      internalID: 924781714018449577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impVictory2
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 143
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35a4f31790b48ba0800000000000000
+      internalID: -6087546633376717509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impVictory3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 143
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f24f2f7f868d750800000000000000
+      internalID: 6329924690411532084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impVictory4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 102
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980e499402930f6f0800000000000000
+      internalID: -652959135132491639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impVictory5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 102
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0235d88c7bbb45f60800000000000000
+      internalID: 8022243234271810336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impVictory6
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 102
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1e4246d44a621d0800000000000000
+      internalID: -3375830218368032310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDown1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 102
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fe2680d11a35e60800000000000000
+      internalID: 7949874913305882427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDown2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 102
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58ecf52fa8a85ca0800000000000000
+      internalID: -6027882631025334181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDown3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 102
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dff0a8d66705cec0800000000000000
+      internalID: -3547420993181909034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDown4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 102
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195d197c5324310f0800000000000000
+      internalID: -1147500681300421231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDown5
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 102
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204e74a8d4b354020800000000000000
+      internalID: 2325329986825217026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkDown6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 61
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461067132444f77e0800000000000000
+      internalID: -1765617477817597596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkLeft1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 61
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3a4c9877da052a0800000000000000
+      internalID: -6750705112504294415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkLeft2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 61
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b840876b48ac00480800000000000000
+      internalID: -8934918989357251445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkLeft3
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 61
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d71d6a808498270800000000000000
+      internalID: 8253206994128829757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkLeft4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 61
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d90c8f3abc6efa40800000000000000
+      internalID: 5403876150077032921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkLeft5
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 61
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02efa59d836459f20800000000000000
+      internalID: 3428723901291232800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkLeft6
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 61
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e85bfc8bda978840800000000000000
+      internalID: 5226316160340547813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkUp1
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 61
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de2fd4acf3d667d0800000000000000
+      internalID: -2925417825879249196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkUp2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 20
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80aadfc01d314890800000000000000
+      internalID: -7475626764042329970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkUp3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 20
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d714e4780d9e5aa80800000000000000
+      internalID: -8456095643485716099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkUp4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 20
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33609933f995c670800000000000000
+      internalID: 8558415936809362238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkUp5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 20
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40c0e66cf297dfe0800000000000000
+      internalID: -1164300365896564662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: impWalkUp6
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 20
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b88f8391eef541a0800000000000000
+      internalID: -6825769415413364560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

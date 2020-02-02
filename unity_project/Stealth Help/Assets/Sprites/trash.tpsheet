@@ -1,0 +1,23 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:67d5150c72ba91ed4439b9ac55912816:8cad6de5d5583dfdadb246a6b5287af9:96a402af294cfdf29ac21e1a48f8056c$
+#
+:format=40300
+:texture=trash.png
+:size=64x128
+:pivotpoints=enabled
+:borders=disabled
+
+trashitem1;1;113;20;14; 0.5;0.5; 0;0;0;0
+trashitem2;22;110;9;17; 0.5;0.5; 0;0;0;0
+trashitem3;1;95;38;14; 0.5;0.5; 0;0;0;0
+trashitem4;40;101;22;8; 0.5;0.5; 0;0;0;0
+trashitem5;1;84;21;10; 0.5;0.5; 0;0;0;0
+trashitem6;23;64;10;30; 0.5;0.5; 0;0;0;0
+trashitem7;34;86;21;8; 0.5;0.5; 0;0;0;0
+trashitem8;1;40;12;23; 0.5;0.5; 0;0;0;0
+trashitem9;14;44;19;19; 0.5;0.5; 0;0;0;0

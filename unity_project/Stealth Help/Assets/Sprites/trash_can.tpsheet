@@ -1,0 +1,18 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:086b4486d2428ef34a4a9a8910615471:12d1a918451446a317b6f76b3937068d:aa019590ba71200533011ad9f2789f1f$
+#
+:format=40300
+:texture=trash_can.png
+:size=256x256
+:pivotpoints=enabled
+:borders=disabled
+
+trashcan-closed;1;151;66;104; 0.5;0.5; 0;0;0;0
+trashcan-empty;68;151;66;104; 0.5;0.5; 0;0;0;0
+trashcan-fullfull;135;151;66;104; 0.5;0.5; 0;0;0;0
+trashcan-fullpartial;1;46;66;104; 0.5;0.5; 0;0;0;0

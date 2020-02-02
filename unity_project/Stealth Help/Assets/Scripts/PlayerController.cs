@@ -56,11 +56,12 @@ public class PlayerController : MonoBehaviour
         Vector2 castDirection = facingDirection;
         int layerMask = ~LayerMask.GetMask("Player");
 
-        RaycastHit2D hit = Physics2D.Raycast(castOrigin, castDirection, GRAB_RANGE, layerMask);
-        Debug.DrawRay(castOrigin, castDirection, Color.blue, 2f);
+        //Vector2 origin, float radius, Vector2 direction, float distance = Mathf.Infinity, int layerMask = DefaultRaycastLayers
+        RaycastHit2D hit = Physics2D.CircleCast(castOrigin, coll.radius + GRAB_RANGE, Vector2.zero, 0f, layerMask);//Physics2D.Raycast(castOrigin, castDirection, GRAB_RANGE, layerMask);
+        //Debug.DrawRay(castOrigin, castDirection, Color.blue, 2f);
 
         if (hit && hit.collider != null) {
-            Debug.Log("hit " + hit + " hit.collider " + hit.collider.gameObject.name);
+            //Debug.Log("hit " + hit + " hit.collider " + hit.collider.gameObject.name);
         }
         if (hit && hit.collider.gameObject.CompareTag("Kick") && !hit.collider.isTrigger) {
             held = hit.collider.GetComponent<KickObject>();

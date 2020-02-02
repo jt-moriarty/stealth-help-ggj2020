@@ -1,0 +1,18 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:d350ab5d95d06e371011e2a223a56407:6a2c2848af8bfc921410a7456371a539:a8bb3ef6aa27231101ec47d46405bd9d$
+#
+:format=40300
+:texture=door.png
+:size=128x256
+:pivotpoints=enabled
+:borders=disabled
+
+door1;1;215;70;40; 0.5;0.5; 0;0;0;0
+door2;1;174;70;40; 0.5;0.5; 0;0;0;0
+door3;1;133;70;40; 0.5;0.5; 0;0;0;0
+door4;1;92;70;40; 0.5;0.5; 0;0;0;0

@@ -1,0 +1,27 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:7099e32fe15271efeac713f9b8e3cb40:4283cfdcca3b4883a91773f336640e38:a8fddbd34115b64fc10f833ca86a88ef$
+#
+:format=40300
+:texture=sink.png
+:size=512x512
+:pivotpoints=enabled
+:borders=disabled
+
+sink-empty-noknobs;1;427;129;84; 0.5;0.5; 0;0;0;0
+sink-knobsalone-diagonal;131;427;129;84; 0.5;0.5; 0;0;0;0
+sink-knobsalone-horizontal;261;427;129;84; 0.5;0.5; 0;0;0;0
+sink-knobsalone-vertical;1;342;129;84; 0.5;0.5; 0;0;0;0
+sink-nowater-pourframe1;131;342;129;84; 0.5;0.5; 0;0;0;0
+sink-nowater-pourframe2;261;342;129;84; 0.5;0.5; 0;0;0;0
+sink-nowater-pourframe3;1;257;129;84; 0.5;0.5; 0;0;0;0
+sink-waterlvl1-noknobs;131;257;129;84; 0.5;0.5; 0;0;0;0
+sink-waterlvl1-pourframe1;261;257;129;84; 0.5;0.5; 0;0;0;0
+sink-waterlvl1-pourframe2;1;172;129;84; 0.5;0.5; 0;0;0;0
+sink-waterlvl1-pourframe3;131;172;129;84; 0.5;0.5; 0;0;0;0
+sink-waterlvl2-noknobs;261;172;129;84; 0.5;0.5; 0;0;0;0
+sink-waterlvl3-noknobs;1;87;129;84; 0.5;0.5; 0;0;0;0

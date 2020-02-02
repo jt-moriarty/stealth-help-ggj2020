@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
 
 
     public bool gameOver = false;
+    public bool gameInProgress = false;
 
     public int numLitDoors = 0;
 
@@ -30,10 +31,10 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.GetKeyDown(KeyCode.Space) && !gameInProgress) {
             Debug.Log("GAME START");
             StopAllCoroutines();
-            StartCoroutine(StartGame(90f));
+            StartCoroutine(StartGame(180f));
         }
         if (Input.GetKeyDown(KeyCode.R)) {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -64,8 +65,10 @@ public class GameController : MonoBehaviour
     IEnumerator StartGame (float gameLength) {
         player.enabled = true;
         gameOver = false;
+        gameInProgress = true;
         uiController.HideEventMessage();
-        numLitDoors = 0;
+        //numLitDoors = 0;
+
         float nextDoorOpenTime = Random.Range(2.5f, 5f);
         float lastDoorOpenTime = Time.time;
         int nextDoor = Random.Range(0, doors.Length);
