@@ -19,6 +19,7 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.visible = false;
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         uiController = GameObject.FindGameObjectWithTag("UIController").GetComponent<GameUIController>();
         doors = FindObjectsOfType<Door>();
@@ -29,12 +30,11 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !gameInProgress) {
-            Debug.Log("GAME START");
+        if (Input.GetButtonDown("Grab") && !gameInProgress) {
             StopAllCoroutines();
             StartCoroutine(StartGame(180f));
         }
-        if (Input.GetKeyDown(KeyCode.R)) {
+        if (gameOver && Input.GetKeyDown(KeyCode.R)) {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         if (gameOver && Input.GetKeyDown(KeyCode.Q)) {
@@ -47,7 +47,7 @@ public class GameController : MonoBehaviour
             //Debug.Log("GAME OVER");
             gameOver = true;
             player.GameOver(win);
-            uiController.ShowEventMessage(win ? System.Text.RegularExpressions.Regex.Unescape("You Win!\nPress R to Restart\n or Q to Quit") : System.Text.RegularExpressions.Regex.Unescape("Game Over!\nPress R to Restart\n or Q to Quit"));
+            uiController.ShowGameOver(win);
             StopAllCoroutines();
             /*for (int i = 0; i < doors.Length; i++) {
                 doors[i].StopAllCoroutines();
@@ -59,7 +59,7 @@ public class GameController : MonoBehaviour
         player.enabled = true;
         gameOver = false;
         gameInProgress = true;
-        uiController.HideEventMessage();
+        uiController.HideIntro();
 
         float nextDoorOpenTime = Random.Range(2.5f, 5f);
         float lastDoorOpenTime = Time.time;
@@ -70,13 +70,13 @@ public class GameController : MonoBehaviour
             float timeRemaining = Mathf.Clamp(gameLength - (Time.time - startTime), 0f, gameLength);
             uiController.TimerText(timeRemaining);
             bool gameWin = true;
-            int remainingPushPull = 0;
+            /*int remainingPushPull = 0;
             for (int i = 0; i < pushPullObjects.Length; i++) {
                 if (!pushPullObjects[i].inPlace) {
                     gameWin = false;
                     remainingPushPull++;
                 }
-            }
+            }*/
             int remainingKick = 0;
             for (int i = 0; i < kickObjects.Length; i++) {
                 if (!kickObjects[i].inPlace) {
@@ -85,7 +85,7 @@ public class GameController : MonoBehaviour
                 }
             }
 
-            Debug.Log("remainingPushPull " + remainingPushPull + " remainingKick " + remainingKick);
+            //Debug.Log("remainingPushPull " + remainingPushPull + " remainingKick " + remainingKick);
 
             if (gameWin) {
                 GameOver(true);
@@ -106,7 +106,7 @@ public class GameController : MonoBehaviour
                     bool fake = Random.Range(0f, 1f) > 0.75f;
                     Debug.Log("NEXT DOOR IS " + nextDoor + " FAKE? " + fake);
                     //underLightStartTime, fake, delayBeforeOpen, toOpenTime, stayOpenTime, toCloseTime, endUnderLightDelay, underLightEndTime
-                    StartCoroutine(doors[nextDoor].OpenSequence(1f, fake, Random.Range(3.5f, 7f), 0.5f, 2f, 0.5f, 1f, 1f));
+                    StartCoroutine(doors[nextDoor].OpenSequence(1f, fake, Random.Range(5f, 8f), 1f, 2f, 0.5f, 1f, 1f));
                     currentDoor = nextDoor;
                     lastDoorOpenTime = Time.time;
                 }

@@ -7,10 +7,18 @@ public class PlayerController : MonoBehaviour
 {
     public float MOVEMENT_BASE_SPEED = 1.0f;
     public float GRAB_RANGE = 1f;
+    public float HOLD_RANGE = 3f;
+
+    public float SPOTLIGHT_DISTANCE_FUZZ = -0.75f;
+    public float SIGHT_RADIUS_ADJUST = -0.25f;
 
     public Vector2 movementDirection;
     public Vector2 facingDirection = Vector2.down;
     public float movementSpeed;
+
+    public Transform grabPivot;
+
+    public Vector2 seenDirection = Vector2.zero;
 
     public Rigidbody2D rb;
     public CircleCollider2D coll;
@@ -33,6 +41,18 @@ public class PlayerController : MonoBehaviour
         ProcessInputs();
         Move();
         Animate();
+    }
+
+    void LateUpdate () {
+        MoveHeldObject();
+    }
+
+    void MoveHeldObject() {
+        if (held != null) {
+            Vector3 facingDir = new Vector3(facingDirection.x, facingDirection.y, 0f);
+            facingDir.Normalize();
+            held.transform.position = grabPivot.transform.position + (facingDir * HOLD_RANGE);
+        }
     }
 
     void Animate() {
@@ -80,6 +100,7 @@ public class PlayerController : MonoBehaviour
             held.rb.velocity = Vector2.zero;
             held.rb.isKinematic = true;
             held.coll.enabled = false;
+            held.spriteRenderer.sortingOrder += 1;
         }
     }
 
@@ -89,6 +110,7 @@ public class PlayerController : MonoBehaviour
             held.rb.isKinematic = false;
             held.rb.velocity = Vector2.zero;
             held.coll.enabled = true;
+            held.spriteRenderer.sortingOrder -= 1;
         }
         held = null;
         originalHeldParent = null;
@@ -102,6 +124,8 @@ public class PlayerController : MonoBehaviour
         enabled = false;
         rb.velocity = Vector2.zero;
         animator.SetTrigger(win ? "Victory" : "Death");
+        animator.SetFloat("Horizontal", seenDirection.x);
+        animator.SetFloat("Vertical", seenDirection.y);
     }
 
     private string[] seenLayerNames = new string[] { "Default" };
@@ -110,7 +134,7 @@ public class PlayerController : MonoBehaviour
         seenHits.Clear();
         Vector2 castOrigin = new Vector2(transform.position.x, transform.position.y) + coll.offset;
         Vector2 castDestination = new Vector2(light.transform.position.x, light.transform.position.y);
-        float castRadius = coll.radius; //TODO: decrease for more leniancy?
+        float castRadius = coll.radius + SIGHT_RADIUS_ADJUST; //TODO: decrease for more leniancy?
         ContactFilter2D contactFilter2D = new ContactFilter2D();
         contactFilter2D.NoFilter();
         contactFilter2D.useTriggers = false;
@@ -119,7 +143,7 @@ public class PlayerController : MonoBehaviour
         contactFilter2D.SetLayerMask(layerMask);
         int numHits = Physics2D.CircleCast(castOrigin, castRadius, castDestination - castOrigin, contactFilter2D, seenHits, light.pointLightOuterRadius);
         bool seen = false;
-        float closestDistance = light.pointLightOuterRadius - 0.75f;
+        float closestDistance = light.pointLightOuterRadius + SPOTLIGHT_DISTANCE_FUZZ;
         RaycastHit2D closestHit = new RaycastHit2D();
         for (int i = 0; i < numHits; i++) {
             //If the door is in our hit list AND 
@@ -177,10 +201,12 @@ public class PlayerController : MonoBehaviour
 
 
         //seen = false;
-        /*if (seen) {
-            Debug.DrawLine(castOrigin, castDestination, Color.red, 1f);
+        if (seen) {
+            //Debug.DrawLine(castOrigin, castDestination, Color.red, 1f);
+            seenDirection = castDestination - castOrigin;
+            seenDirection.Normalize();
         }
-        else if (numHits > 0 && closestDistance != light.pointLightOuterRadius) {
+        /*else if (numHits > 0 && closestDistance != light.pointLightOuterRadius) {
             Debug.DrawLine(castOrigin, closestHit.point, Color.green, 1f);
         }*/
         return seen;

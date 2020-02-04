@@ -69,6 +69,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coll: {fileID: 2275043431495698841}
   rb: {fileID: 3748621028409224532}
+  spriteRenderer: {fileID: 7383716291349960120}
   inPlace: 0
   type: 0
 --- !u!61 &2275043431495698841

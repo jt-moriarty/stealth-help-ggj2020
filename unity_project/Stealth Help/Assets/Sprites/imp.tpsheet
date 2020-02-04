@@ -2,9 +2,9 @@
 # Sprite sheet data for Unity.
 #
 # To import these sprites into your Unity project, download "TexturePackerImporter":
-# https://www.codeandweb.com/texturepacker/unity
+# http://www.codeandweb.com/texturepacker/unity
 #
-# $TexturePacker:SmartUpdate:da889261a14ad255724a7513ac1af3b6:1a7d4680203905149dcd2db7f0e76c4a:c8dc68e81aa7cd871b55b98e412f564e$
+# $TexturePacker:SmartUpdate:1c9905465655d4f88902fb4cf08510cb:30512061d256a33ddd75b6f021fee80d:c8dc68e81aa7cd871b55b98e412f564e$
 #
 :format=40300
 :texture=imp.png
