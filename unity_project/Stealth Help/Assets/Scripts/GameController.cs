@@ -104,7 +104,7 @@ public class GameController : MonoBehaviour
             if (nextDoor != currentDoor && !doors[nextDoor].doorLit) {
                 if (Time.time - lastDoorOpenTime > nextDoorOpenTime) {
                     bool fake = Random.Range(0f, 1f) > 0.75f;
-                    Debug.Log("NEXT DOOR IS " + nextDoor + " FAKE? " + fake);
+                    //Debug.Log("NEXT DOOR IS " + nextDoor + " FAKE? " + fake);
                     //underLightStartTime, fake, delayBeforeOpen, toOpenTime, stayOpenTime, toCloseTime, endUnderLightDelay, underLightEndTime
                     StartCoroutine(doors[nextDoor].OpenSequence(1f, fake, Random.Range(5f, 8f), 1f, 2f, 0.5f, 1f, 1f));
                     currentDoor = nextDoor;

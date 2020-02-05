@@ -2,6 +2,7 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Sprites/book.tpsheet
 - Assets/Sprites/door.tpsheet
 - Assets/Sprites/imp.tpsheet
 - Assets/Sprites/sink.tpsheet
@@ -9,6 +10,7 @@ tpsheetFileNames:
 - Assets/Sprites/trash_can.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Sprites/book.png
 - Assets/Sprites/door.png
 - Assets/Sprites/imp.png
 - Assets/Sprites/sink.png
@@ -16,6 +18,7 @@ textureFileNames:
 - Assets/Sprites/trash_can.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 - 
 - 

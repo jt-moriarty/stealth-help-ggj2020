@@ -22,7 +22,7 @@ public class PushPullObject : MonoBehaviour
         
     }
 
-    IEnumerator TweenToTarget (Vector3 target, float time) {
+    /*IEnumerator TweenToTarget (Vector3 target, float time) {
         float startTime = Time.time;
         Vector3 start = transform.position;
         while (Time.time - startTime < time) {
@@ -44,5 +44,5 @@ public class PushPullObject : MonoBehaviour
             //tweenTarget.x += otherColl.offset.y;
             StartCoroutine(TweenToTarget(tweenTarget, 0.5f));
         }
-    }
+    }*/
 }

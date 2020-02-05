@@ -59,8 +59,31 @@ public class PlayerController : MonoBehaviour
         if (movementDirection != Vector2.zero) {
             animator.SetFloat("Horizontal", movementDirection.x);
             animator.SetFloat("Vertical", movementDirection.y);
+
+            //Check if pushing.
+            Vector2 castOrigin = new Vector2(transform.position.x, transform.position.y) + coll.offset;
+            Vector2 castDirection = facingDirection;
+            int layerMask = ~LayerMask.GetMask("Player");
+
+            //Vector2 origin, float radius, Vector2 direction, float distance = Mathf.Infinity, int layerMask = DefaultRaycastLayers
+            RaycastHit2D hit = Physics2D.CircleCast(castOrigin, coll.radius, facingDirection, 0.1f, layerMask);
+
+            if (hit && hit.collider.gameObject.CompareTag("PushPull")) {
+                animator.SetBool("Pushing", true);
+            }
+            else {
+                animator.SetBool("Pushing", false);
+            }
         }
+        else {
+            animator.SetBool("Pushing", false);
+        }
+
         animator.SetFloat("Speed", movementSpeed);
+
+        if (movementDirection != Vector2.zero) {
+
+        }
     }
 
     void ProcessInputs() {
@@ -123,6 +146,7 @@ public class PlayerController : MonoBehaviour
     public void GameOver (bool win) {
         enabled = false;
         rb.velocity = Vector2.zero;
+        rb.isKinematic = true;
         animator.SetTrigger(win ? "Victory" : "Death");
         animator.SetFloat("Horizontal", seenDirection.x);
         animator.SetFloat("Vertical", seenDirection.y);
